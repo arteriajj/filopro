@@ -720,3 +720,9 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [17:27:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4217ms or 84 ticks behind
 [17:28:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4717ms or 94 ticks behind
 [17:45:24] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/19676, l='ServerLevel[Filopro2]', x=-6.50, y=36.00, z=222.50]
+[17:48:51] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/20874, l='ServerLevel[Filopro2]', x=119.50, y=7.00, z=218.50]
+[17:50:38] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/21322, l='ServerLevel[Filopro2]', x=36.50, y=12.00, z=287.50]
+[17:51:50] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/21879, l='ServerLevel[Filopro2]', x=70.50, y=22.00, z=219.50]
+[17:52:32] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/22483, l='ServerLevel[Filopro2]', x=49.50, y=-6.00, z=252.50]
+[17:54:06] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/23430, l='ServerLevel[Filopro2]', x=106.50, y=-1.00, z=205.50]
+[17:55:18] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/23963, l='ServerLevel[Filopro2]', x=-16.50, y=-30.00, z=225.50]
