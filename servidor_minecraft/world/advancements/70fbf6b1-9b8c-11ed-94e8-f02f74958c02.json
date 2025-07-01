@@ -1,0 +1,47 @@
+{
+  "mobs_of_mythology:mobs_of_mythology": {
+    "criteria": {
+      "requirement": "2025-06-24 12:41:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-24 12:41:57 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "volcanic_plains": "2025-06-24 12:42:24 -0500",
+      "woodland": "2025-06-24 12:43:02 -0500",
+      "floodplain": "2025-06-24 12:42:34 -0500",
+      "lush_savanna": "2025-06-24 12:42:08 -0500",
+      "old_growth_woodland": "2025-06-24 12:42:41 -0500",
+      "rainforest": "2025-06-24 12:41:57 -0500",
+      "lush_desert": "2025-06-24 12:42:45 -0500",
+      "rocky_rainforest": "2025-06-24 12:42:22 -0500"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "rainforest": "2025-06-24 12:41:57 -0500"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-06-24 12:41:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-06-24 12:43:12 -0500",
+      "minecraft:river": "2025-06-24 12:42:39 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}

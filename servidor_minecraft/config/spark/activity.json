@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Kafiro",
+      "uniqueId": "88f9ad93-d518-3f9a-99f6-eeb4de8a61c4"
+    },
+    "time": 1751236255601,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/sYE4VkU1sB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Kafiro",
+      "uniqueId": "88f9ad93-d518-3f9a-99f6-eeb4de8a61c4"
+    },
+    "time": 1751234994152,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Dr8fXZSEx2"
+    }
+  }
+]
