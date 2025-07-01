@@ -590,3 +590,53 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [16:39:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
 [16:41:12] [Server thread/INFO]: AuroraSadov lost connection: multiplayer.disconnect.generic
 [16:41:12] [Server thread/INFO]: multiplayer.player.left
+[16:48:12] [Server thread/WARN]: Invalid statistic in ./world/stats/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json: Don't know what additional-armoury:stone_dagger is
+[16:48:12] [Server thread/WARN]: Invalid statistic in ./world/stats/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json: Don't know what additional-armoury:stone_dagger is
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/stone_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/stone_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/golden_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/wooden_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/iron_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/golden_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/diamond_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/iron_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/diamond_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/wooden_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
+[16:48:12] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: additional-armoury:stone_dagger'
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_mace removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_dagger removed now.
+[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_mace removed now.
+[16:48:12] [Server thread/INFO]: Kafiro[/127.184.225.126:60817] logged in with entity id 3846 at (126.82116513698416, 65.0, 236.72890612156917)
+[16:48:12] [Server thread/INFO]: [STDOUT]: Ce : player joined, pausing chunky
+[16:48:12] [Server thread/INFO]: [Chunky] No tasks to pause.
+[16:48:12] [Server thread/INFO]: Creating new config sync packet
+[16:48:12] [Server thread/INFO]: multiplayer.player.joined
+[16:48:32] [Server thread/INFO]: AuroraSadov[/127.184.225.126:50381] logged in with entity id 4165 at (289.69953077978477, 63.0, -554.1383482334574)
+[16:48:32] [Server thread/INFO]: Creating new config sync packet
+[16:48:32] [Server thread/INFO]: multiplayer.player.joined
+[16:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[16:48:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4899ms or 97 ticks behind
+[16:48:59] [Server thread/INFO]: commands.op.success
+[16:49:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3317ms or 66 ticks behind
+[16:49:20] [Server thread/INFO]: chat.type.admin
+[16:49:28] [Server thread/INFO]: chat.type.admin
+[16:49:33] [Server thread/INFO]: Kafiro teleported to 289.5 63.0 -554.5 minecraft:overworld
+[16:49:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[16:49:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3707ms or 74 ticks behind
