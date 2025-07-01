@@ -2824,6 +2824,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-07-01 17:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mangrove_planks": {
     "criteria": {
       "has_logs": "2025-07-01 17:06:30 +0000"
@@ -2839,6 +2845,12 @@
   "mcwdoors:recipes/jungle": {
     "criteria": {
       "has_wood": "2025-07-01 17:10:35 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2025-07-01 17:22:18 +0000"
     },
     "done": true
   },
@@ -2860,15 +2872,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-07-01 17:22:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine_brick": "2025-07-01 17:06:45 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-07-01 17:16:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
       "has_polished_andesite": "2025-07-01 17:05:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-07-01 17:22:18 +0000"
     },
     "done": true
   },
