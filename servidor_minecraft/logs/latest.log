@@ -730,3 +730,26 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [17:57:38] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (19, -45, 304)
 [17:57:50] [Server thread/INFO]: AuroraSadov teleported to 20.5 -44.0 304.5 minecraft:overworld
 [17:57:53] [Server thread/INFO]: AuroraSadov has found their grave at (19, -45, 304)
+[18:07:09] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
+[18:07:09] [Server thread/INFO]: No modded crossbow items have been found!
+[18:07:17] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/28310, l='ServerLevel[Filopro2]', x=-39.50, y=22.00, z=323.50]
+[18:10:52] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/29809, l='ServerLevel[Filopro2]', x=-3.50, y=-38.00, z=279.50]
+[18:11:05] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/29945, l='ServerLevel[Filopro2]', x=103.50, y=-15.00, z=396.50]
+[18:11:48] [Server thread/INFO]: death.attack.mob
+[18:11:48] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (31, 7, 328)
+[18:11:49] [Server thread/INFO]: death.attack.mob
+[18:11:49] [Server thread/INFO]: Placed Kafiro's Gravestone at (33, 5, 338)
+[18:11:49] [Server thread/WARN]: Kafiro moved wrongly!
+[18:12:07] [Server thread/INFO]: Kafiro teleported to 33.5 4.0 339.5 minecraft:overworld
+[18:12:09] [Server thread/INFO]: Kafiro has found their grave at (33, 5, 338)
+[18:12:18] [Server thread/INFO]: AuroraSadov teleported to 31.5 7.0 328.5 minecraft:overworld
+[18:12:20] [Server thread/INFO]: AuroraSadov has found their grave at (31, 7, 328)
+[18:14:26] [Server thread/WARN]: UUID of added entity already exists: class_9254['entity.minecraft.bogged'/31705, l='ServerLevel[Filopro2]', x=-6.50, y=78.00, z=299.50]
+[18:14:36] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/31850, l='ServerLevel[Filopro2]', x=-21.50, y=-30.00, z=247.50]
+[18:22:26] [Server thread/INFO]: death.attack.mob
+[18:22:26] [Server thread/INFO]: Placed Kafiro's Gravestone at (13, 14, 312)
+[18:22:29] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/34818, l='ServerLevel[Filopro2]', x=177.50, y=42.00, z=252.50]
+[18:22:37] [Server thread/INFO]: Kafiro teleported to 12.5 15.0 312.5 minecraft:overworld
+[18:22:38] [Server thread/INFO]: Kafiro has found their grave at (13, 14, 312)
+[18:24:01] [Server thread/INFO]: chat.type.admin
+[18:24:14] [Server thread/INFO]: chat.type.admin
