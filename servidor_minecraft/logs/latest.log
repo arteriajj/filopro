@@ -753,3 +753,77 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [18:22:38] [Server thread/INFO]: Kafiro has found their grave at (13, 14, 312)
 [18:24:01] [Server thread/INFO]: chat.type.admin
 [18:24:14] [Server thread/INFO]: chat.type.admin
+[18:26:52] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/36214, l='ServerLevel[Filopro2]', x=82.50, y=5.00, z=246.50]
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.8014267610907382
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.40711182095941467
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.9175639256324075
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2789322963161567
+[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2789322963161567
+[18:27:46] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3825263847849101
+[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3345034479552851
+[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.8822752599916157
+[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.4094042629509431
+[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.9181240082448312
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.788444328839887
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.8183304362592594
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.8519205467845268
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.8793151009560347
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.0
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.0
+[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.0624818626585357
+[18:28:02] [Server thread/INFO]: death.attack.lightningBolt
+[18:28:02] [Server thread/INFO]: Placed Kafiro's Gravestone at (30, -12, 349)
+[18:28:12] [Server thread/INFO]: Kafiro teleported to 30.5 -12.0 349.5 minecraft:overworld
+[18:28:14] [Server thread/INFO]: Kafiro has found their grave at (30, -12, 349)
+[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.6988611607741383
+[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7285270208854691
+[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7683795167320966
+[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3247838548375377
+[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.6225047226520566
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7303444045596592
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7336094616588937
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7425236315564021
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.7537617105030918
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.7662432668482495
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7715643712756517
+[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3726077169206121
+[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3196463216752292
+[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2751480577361676
+[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3091909101378363
+[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.7982564348016155
+[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.797685556881703
+[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.780364748933394
+[18:29:37] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3823357311151767
+[18:29:37] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:29:37] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:29:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
+[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.33891275581301805
+[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.6492037855128026
+[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
+[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
+[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
+[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
+[18:30:01] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2844841160114271
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7829538562777894
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.770560575154657
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.128600349491399
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.773680942220695
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.773680942220695
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.770560575154657
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.729832250307339
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.693691222445873
+[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.6744252776331283
+[18:31:13] [Server thread/INFO]: death.attack.mob
+[18:31:13] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (29, 10, 315)
+[18:31:24] [Server thread/INFO]: AuroraSadov teleported to 29.5 10.0 315.5 minecraft:overworld
+[18:31:25] [Server thread/INFO]: AuroraSadov has found their grave at (29, 10, 315)
+[18:32:31] [Server thread/INFO]: death.attack.player
+[18:32:31] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (51, 7, 343)
+[18:32:40] [Server thread/INFO]: AuroraSadov teleported to 51.5 7.0 343.5 minecraft:overworld
+[18:32:41] [Server thread/INFO]: AuroraSadov has found their grave at (51, 7, 343)
+[18:33:58] [Server thread/INFO]: chat.type.advancement.task
