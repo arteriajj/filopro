@@ -827,3 +827,47 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [18:32:40] [Server thread/INFO]: AuroraSadov teleported to 51.5 7.0 343.5 minecraft:overworld
 [18:32:41] [Server thread/INFO]: AuroraSadov has found their grave at (51, 7, 343)
 [18:33:58] [Server thread/INFO]: chat.type.advancement.task
+[18:37:25] [Server thread/INFO]: death.attack.mob
+[18:37:25] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (31, -2, 364)
+[18:37:36] [Server thread/INFO]: AuroraSadov teleported to 31.5 -2.0 364.5 minecraft:overworld
+[18:37:38] [Server thread/INFO]: death.attack.mob
+[18:37:38] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (29, -2, 364)
+[18:37:42] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/41459, l='ServerLevel[Filopro2]', x=67.50, y=69.00, z=150.50]
+[18:37:48] [Server thread/INFO]: AuroraSadov teleported to 31.5 -2.0 364.5 minecraft:overworld
+[18:37:49] [Server thread/INFO]: AuroraSadov has found their grave at (31, -2, 364)
+[18:37:55] [Server thread/INFO]: death.attack.mob
+[18:37:55] [Server thread/INFO]: Placed Kafiro's Gravestone at (32, -2, 366)
+[18:38:02] [Server thread/INFO]: death.attack.mob
+[18:38:02] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (27, -1, 363)
+[18:38:04] [Server thread/INFO]: Kafiro teleported to 32.5 -2.0 366.5 minecraft:overworld
+[18:38:06] [Server thread/INFO]: Kafiro has found their grave at (32, -2, 366)
+[18:38:15] [Server thread/INFO]: AuroraSadov teleported to 27.5 -1.0 363.5 minecraft:overworld
+[18:38:18] [Server thread/INFO]: AuroraSadov has found their grave at (29, -2, 364)
+[18:38:19] [Server thread/INFO]: AuroraSadov has found their grave at (27, -1, 363)
+[18:38:29] [Server thread/INFO]: chat.type.advancement.task
+[18:38:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[18:38:59] [Server thread/INFO]: death.attack.mob
+[18:38:59] [Server thread/INFO]: Placed Kafiro's Gravestone at (28, -2, 362)
+[18:39:08] [Server thread/INFO]: Kafiro teleported to 28.5 -2.0 361.5 minecraft:overworld
+[18:39:09] [Server thread/INFO]: Kafiro has found their grave at (28, -2, 362)
+[18:39:18] [Server thread/INFO]: death.attack.mob
+[18:39:18] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (28, -2, 364)
+[18:39:27] [Server thread/INFO]: AuroraSadov teleported to 28.5 -2.0 364.5 minecraft:overworld
+[18:39:29] [Server thread/INFO]: AuroraSadov has found their grave at (28, -2, 364)
+[18:43:11] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/44580, l='ServerLevel[Filopro2]', x=-22.50, y=-26.00, z=247.50]
+[18:43:16] [Server thread/WARN]: Skipping Entity with id mobs_of_mythology:kobold
+[18:43:26] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/44703, l='ServerLevel[Filopro2]', x=-48.50, y=8.00, z=464.50]
+[18:45:01] [Server thread/INFO]: death.attack.mob
+[18:45:01] [Server thread/INFO]: Placed Kafiro's Gravestone at (-54, 15, 394)
+[18:45:13] [Server thread/INFO]: Kafiro teleported to -52.5 15.0 393.5 minecraft:overworld
+[18:45:15] [Server thread/INFO]: Kafiro has found their grave at (-54, 15, 394)
+[18:45:38] [Server thread/INFO]: death.attack.mob
+[18:45:38] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-40, 0, 396)
+[18:45:38] [Server thread/WARN]: AuroraSadov moved wrongly!
+[18:45:50] [Server thread/INFO]: AuroraSadov teleported to -38.5 0.0 398.5 minecraft:overworld
+[18:45:53] [Server thread/INFO]: AuroraSadov has found their grave at (-40, 0, 396)
+[18:46:02] [Server thread/INFO]: death.attack.onFire
+[18:46:02] [Server thread/INFO]: Placed Kafiro's Gravestone at (-36, 0, 392)
+[18:46:05] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/46910, l='ServerLevel[Filopro2]', x=115.50, y=-11.00, z=215.50]
+[18:46:09] [Server thread/INFO]: Kafiro teleported to -36.5 0.0 392.5 minecraft:overworld
+[18:46:11] [Server thread/INFO]: Kafiro has found their grave at (-36, 0, 392)
