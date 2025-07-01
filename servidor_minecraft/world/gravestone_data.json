@@ -41,9 +41,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": 180,
-        "posY": 68,
-        "posZ": 45
+        "posX": 19,
+        "posY": -45,
+        "posZ": 304
       },
       "secondGrave": {
         "dimension": {
@@ -51,9 +51,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": 314,
-        "posY": 36,
-        "posZ": -519
+        "posX": 180,
+        "posY": 68,
+        "posZ": 45
       },
       "thirdGrave": {
         "dimension": {
