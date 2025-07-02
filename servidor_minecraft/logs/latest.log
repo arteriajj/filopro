@@ -778,3 +778,25 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [19:17:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6728ms or 134 ticks behind
 [19:17:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6937ms or 138 ticks behind
 [19:18:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3756ms or 75 ticks behind
+[19:19:18] [Server thread/INFO]: death.attack.mob
+[19:19:18] [Server thread/INFO]: Placed Kafiro's Gravestone at (-101, -45, -162)
+[19:19:26] [Server thread/INFO]: Kafiro teleported to -100.5 -45.0 -161.5 minecraft:overworld
+[19:19:28] [Server thread/INFO]: Kafiro has found their grave at (-101, -45, -162)
+[19:19:34] [Server thread/INFO]: death.attack.mob
+[19:19:34] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-75, -44, -166)
+[19:19:43] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/61349, l='ServerLevel[Filopro2]', x=145.50, y=-35.00, z=242.50]
+[19:19:48] [Server thread/INFO]: AuroraSadov teleported to -74.5 -44.0 -165.5 minecraft:overworld
+[19:19:51] [Server thread/INFO]: AuroraSadov has found their grave at (-75, -44, -166)
+[19:19:53] [Server thread/INFO]: death.attack.mob
+[19:19:53] [Server thread/INFO]: Placed Kafiro's Gravestone at (-110, -45, -158)
+[19:20:03] [Server thread/INFO]: Kafiro teleported to -110.5 -45.0 -158.5 minecraft:overworld
+[19:20:06] [Server thread/INFO]: Kafiro has found their grave at (-110, -45, -158)
+[19:20:44] [Server thread/INFO]: chat.type.admin
+[19:21:01] [Server thread/INFO]: chat.type.admin
+[19:23:45] [Server thread/INFO]: death.attack.arrow
+[19:23:45] [Server thread/INFO]: Placed Kafiro's Gravestone at (-113, -45, -153)
+[19:23:53] [Server thread/INFO]: Kafiro teleported to -113.5 -45.0 -152.5 minecraft:overworld
+[19:23:55] [Server thread/INFO]: Kafiro has found their grave at (-113, -45, -153)
+[19:28:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[19:28:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2679ms or 53 ticks behind
+[19:28:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
