@@ -709,3 +709,10 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [18:47:11] [Server thread/INFO]: AuroraSadov has found their grave at (-195, -23, -20)
 [18:47:14] [Server thread/INFO]: AuroraSadov has found their grave at (-197, -24, -20)
 [18:47:17] [Server thread/INFO]: AuroraSadov has found their grave at (-198, -24, -18)
+[18:50:09] [Server thread/INFO]: chat.type.admin
+[18:50:39] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/43139, l='ServerLevel[Filopro2]', x=-159.50, y=16.00, z=-37.50]
+[18:50:57] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/43283, l='ServerLevel[Filopro2]', x=-123.50, y=-30.00, z=-57.50]
+[18:51:02] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/43294, l='ServerLevel[Filopro2]', x=-99.50, y=65.00, z=-42.50]
+[18:52:02] [Server thread/INFO]: chat.type.admin
+[18:53:57] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/44596, l='ServerLevel[Filopro2]', x=-108.50, y=33.00, z=42.50]
+[18:58:12] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/45264, l='ServerLevel[Filopro2]', x=-222.50, y=19.00, z=-85.50]
