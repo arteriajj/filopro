@@ -1680,6 +1680,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-06-25 03:03:21 +0000",
+      "minecraft:enderman": "2025-07-02 19:50:54 +0000",
       "minecraft:spider": "2025-06-25 01:00:49 +0000",
       "minecraft:zombie": "2025-06-25 16:56:31 +0000",
       "minecraft:creeper": "2025-06-25 17:21:20 +0000",
@@ -2828,6 +2829,7 @@
   },
   "mob-ai-tweaks:orphan_obliterator": {
     "criteria": {
+      "baby_zombie": "2025-07-02 19:54:21 +0000",
       "baby_skeleton": "2025-06-29 22:57:46 +0000"
     },
     "done": false
