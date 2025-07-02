@@ -800,3 +800,71 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [19:28:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
 [19:28:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2679ms or 53 ticks behind
 [19:28:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[19:29:02] [Server thread/INFO]: death.attack.mob
+[19:29:02] [Server thread/INFO]: Placed Kafiro's Gravestone at (-24, -35, -57)
+[19:29:08] [Server thread/INFO]: Kafiro teleported to -25.5 -35.0 -55.5 minecraft:overworld
+[19:29:11] [Server thread/INFO]: Kafiro has found their grave at (-24, -35, -57)
+[19:29:12] [Server thread/INFO]: death.attack.mob
+[19:29:12] [Server thread/INFO]: Placed Kafiro's Gravestone at (-21, -36, -58)
+[19:29:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:29:25] [Server thread/INFO]: Kafiro teleported to -20.5 -35.0 -56.5 minecraft:overworld
+[19:29:26] [Server thread/INFO]: Kafiro has found their grave at (-21, -36, -58)
+[19:29:28] [Server thread/INFO]: death.attack.mob
+[19:29:28] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-118, -40, -150)
+[19:29:34] [Server thread/INFO]: death.attack.mob
+[19:29:34] [Server thread/INFO]: Placed Kafiro's Gravestone at (-52, -35, -73)
+[19:29:38] [Server thread/INFO]: AuroraSadov teleported to -117.5 -40.0 -149.5 minecraft:overworld
+[19:29:40] [Server thread/INFO]: AuroraSadov has found their grave at (-118, -40, -150)
+[19:29:41] [Server thread/INFO]: Kafiro teleported to -52.5 -36.0 -72.5 minecraft:overworld
+[19:29:43] [Server thread/INFO]: Kafiro has found their grave at (-52, -35, -73)
+[19:29:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[19:29:54] [Server thread/INFO]: death.attack.mob
+[19:29:54] [Server thread/INFO]: Placed Kafiro's Gravestone at (-85, -33, -97)
+[19:30:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3079ms or 61 ticks behind
+[19:30:12] [Server thread/INFO]: Kafiro teleported to -85.5 -34.0 -95.5 minecraft:overworld
+[19:30:14] [Server thread/INFO]: Kafiro has found their grave at (-85, -33, -97)
+[19:30:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5131ms or 102 ticks behind
+[19:31:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[19:31:16] [Server thread/INFO]: death.attack.arrow
+[19:31:16] [Server thread/INFO]: Placed Kafiro's Gravestone at (-100, -35, -92)
+[19:31:23] [Server thread/INFO]: Kafiro teleported to -99.5 -35.0 -91.5 minecraft:overworld
+[19:31:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:31:25] [Server thread/INFO]: Kafiro has found their grave at (-100, -35, -92)
+[19:31:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4039ms or 80 ticks behind
+[19:32:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3819ms or 76 ticks behind
+[19:32:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3605ms or 72 ticks behind
+[19:32:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3695ms or 73 ticks behind
+[19:32:57] [Server thread/INFO]: death.attack.player
+[19:32:57] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-100, -35, -78)
+[19:32:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2459ms or 49 ticks behind
+[19:33:07] [Server thread/INFO]: death.attack.explosion.player
+[19:33:07] [Server thread/INFO]: Placed Kafiro's Gravestone at (-112, -38, -90)
+[19:33:10] [Server thread/INFO]: AuroraSadov teleported to -99.5 -35.0 -76.5 minecraft:overworld
+[19:33:15] [Server thread/INFO]: Kafiro teleported to -111.5 -38.0 -89.5 minecraft:overworld
+[19:33:15] [Server thread/INFO]: AuroraSadov has found their grave at (-100, -35, -78)
+[19:33:21] [Server thread/INFO]: Kafiro has found their grave at (-112, -38, -90)
+[19:33:24] [Server thread/INFO]: death.attack.mob
+[19:33:24] [Server thread/INFO]: Placed Kafiro's Gravestone at (-113, -40, -86)
+[19:33:30] [Server thread/INFO]: Kafiro teleported to -112.5 -40.0 -86.5 minecraft:overworld
+[19:33:34] [Server thread/INFO]: Kafiro has found their grave at (-113, -40, -86)
+[19:33:50] [Server thread/INFO]: death.attack.mob
+[19:33:50] [Server thread/INFO]: Placed Kafiro's Gravestone at (-109, -39, -89)
+[19:33:59] [Server thread/INFO]: Kafiro teleported to -109.5 -41.0 -87.5 minecraft:overworld
+[19:34:11] [Server thread/INFO]: Kafiro has found their grave at (-109, -39, -89)
+[19:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[19:34:21] [Server thread/INFO]: death.attack.mob
+[19:34:21] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-97, -39, -72)
+[19:35:05] [Server thread/INFO]: AuroraSadov teleported to -96.5 -39.0 -71.5 minecraft:overworld
+[19:35:07] [Server thread/INFO]: AuroraSadov has found their grave at (-97, -39, -72)
+[19:35:45] [Server thread/INFO]: death.attack.mob
+[19:35:45] [Server thread/INFO]: Placed Kafiro's Gravestone at (-108, -40, -115)
+[19:35:52] [Server thread/INFO]: Kafiro teleported to -106.5 -41.0 -115.5 minecraft:overworld
+[19:35:54] [Server thread/INFO]: Kafiro has found their grave at (-108, -40, -115)
+[19:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:37:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[19:37:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2527ms or 50 ticks behind
+[19:37:35] [Server thread/INFO]: death.attack.onFire
+[19:37:35] [Server thread/INFO]: Placed Kafiro's Gravestone at (-105, -42, -117)
+[19:37:43] [Server thread/INFO]: Kafiro teleported to -104.5 -41.0 -116.5 minecraft:overworld
+[19:37:45] [Server thread/INFO]: Kafiro has found their grave at (-105, -42, -117)
+[19:39:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
