@@ -604,3 +604,52 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [18:14:58] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/13697, l='ServerLevel[Filopro2]', x=56.50, y=13.00, z=200.50]
 [18:15:01] [Server thread/INFO]: AuroraSadov teleported to -123.5 -32.0 -10.5 minecraft:overworld
 [18:15:19] [Server thread/INFO]: AuroraSadov has found their grave at (-124, -31, -11)
+[18:18:18] [Server thread/INFO]: chat.type.admin
+[18:19:01] [Server thread/INFO]: chat.type.admin
+[18:19:42] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/15250, l='ServerLevel[Filopro2]', x=-259.50, y=-15.00, z=-59.50]
+[18:19:44] [Server thread/INFO]: death.attack.explosion.player
+[18:19:44] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-267, 3, 65)
+[18:19:52] [Server thread/INFO]: AuroraSadov teleported to -266.5 3.0 66.5 minecraft:overworld
+[18:19:56] [Server thread/INFO]: AuroraSadov has found their grave at (-267, 3, 65)
+[18:19:59] [Server thread/INFO]: death.attack.explosion.player
+[18:19:59] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-267, 3, 66)
+[18:20:06] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/16177, l='ServerLevel[Filopro2]', x=52.50, y=33.00, z=153.50]
+[18:20:10] [Server thread/INFO]: AuroraSadov teleported to -266.5 3.0 66.5 minecraft:overworld
+[18:20:17] [Server thread/INFO]: AuroraSadov has found their grave at (-267, 3, 66)
+[18:21:52] [Server thread/INFO]: death.attack.explosion.player
+[18:21:52] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-316, 25, 100)
+[18:22:03] [Server thread/INFO]: chat.type.admin
+[18:22:04] [Server thread/INFO]: AuroraSadov teleported to -315.5 26.0 100.5 minecraft:overworld
+[18:22:06] [Server thread/INFO]: death.attack.explosion.player
+[18:22:06] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-316, 26, 100)
+[18:22:13] [Server thread/INFO]: chat.type.admin
+[18:22:17] [Server thread/INFO]: AuroraSadov teleported to -315.5 26.0 100.5 minecraft:overworld
+[18:22:20] [Server thread/INFO]: AuroraSadov has found their grave at (-316, 25, 100)
+[18:22:26] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
+[18:22:26] [Server thread/INFO]: No modded crossbow items have been found!
+[18:22:29] [Server thread/INFO]: chat.type.admin
+[18:22:31] [Server thread/INFO]: AuroraSadov has found their grave at (-316, 26, 100)
+[18:22:41] [Server thread/INFO]: chat.type.admin
+[18:22:54] [Server thread/INFO]: chat.type.admin
+[18:23:17] [Server thread/INFO]: chat.type.admin
+[18:23:33] [Server thread/INFO]: chat.type.admin
+[18:23:53] [Server thread/INFO]: chat.type.admin
+[18:24:02] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.fletcher'/20564, l='ServerLevel[Filopro2]', x=-290.48, y=-8.44, z=248.50] died, message: 'death.attack.inWall'
+[18:24:09] [Server thread/INFO]: chat.type.admin
+[18:24:59] [Server thread/INFO]: chat.type.admin
+[18:25:47] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/22424, l='ServerLevel[Filopro2]', x=-249.50, y=7.00, z=65.50]
+[18:26:31] [Server thread/INFO]: death.attack.arrow
+[18:26:31] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-285, -15, 122)
+[18:26:39] [Server thread/INFO]: AuroraSadov teleported to -285.5 -15.0 122.5 minecraft:overworld
+[18:26:42] [Server thread/INFO]: AuroraSadov has found their grave at (-285, -15, 122)
+[18:26:46] [Server thread/INFO]: chat.type.admin
+[18:27:15] [Server thread/INFO]: chat.type.admin
+[18:31:52] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/27725, l='ServerLevel[Filopro2]', x=-91.50, y=-3.00, z=65.50]
+[18:31:57] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/27820, l='ServerLevel[Filopro2]', x=-205.50, y=36.00, z=89.50]
+[18:32:37] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/28409, l='ServerLevel[Filopro2]', x=-109.50, y=-29.00, z=-45.50]
+[18:36:11] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/30987, l='ServerLevel[Filopro2]', x=-110.50, y=-33.00, z=63.50]
+[18:36:39] [Server thread/INFO]: death.attack.arrow
+[18:36:39] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-245, 1, 50)
+[18:37:03] [Server thread/INFO]: AuroraSadov teleported to -243.5 0.0 50.5 minecraft:overworld
+[18:37:05] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/32110, l='ServerLevel[Filopro2]', x=-285.50, y=-29.00, z=-45.50]
+[18:37:06] [Server thread/INFO]: AuroraSadov has found their grave at (-245, 1, 50)
