@@ -8,9 +8,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": -255,
-        "posY": -47,
-        "posZ": -121
+        "posX": -145,
+        "posY": -59,
+        "posZ": -150
       },
       "secondGrave": {
         "dimension": {
@@ -18,9 +18,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": -175,
-        "posY": -25,
-        "posZ": -36
+        "posX": -176,
+        "posY": -33,
+        "posZ": -110
       },
       "thirdGrave": {
         "dimension": {
@@ -28,9 +28,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": -198,
-        "posY": -24,
-        "posZ": -18
+        "posX": -255,
+        "posY": -47,
+        "posZ": -121
       }
     },
     {
@@ -41,9 +41,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": -182,
-        "posY": -28,
-        "posZ": -48
+        "posX": -146,
+        "posY": -34,
+        "posZ": -147
       },
       "secondGrave": {
         "dimension": {
@@ -51,9 +51,9 @@
           "field_13355": "overworld",
           "cachedString": "minecraft:overworld"
         },
-        "posX": -190,
-        "posY": -20,
-        "posZ": -40
+        "posX": -178,
+        "posY": -35,
+        "posZ": -119
       },
       "thirdGrave": {
         "dimension": {
@@ -62,8 +62,8 @@
           "cachedString": "minecraft:overworld"
         },
         "posX": -198,
-        "posY": -24,
-        "posZ": -20
+        "posY": -38,
+        "posZ": -105
       }
     }
   ]
