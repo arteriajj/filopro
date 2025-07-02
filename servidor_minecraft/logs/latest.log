@@ -1,10 +1,10 @@
-[16:35:05] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.14
-[16:35:05] [ForkJoinPool-1-worker-4/WARN]: The mod "immersive_optimization" contains invalid entries in its mod json:
+[17:47:55] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.14
+[17:47:55] [ForkJoinPool-1-worker-4/WARN]: The mod "immersive_optimization" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 23 column 12
-[16:35:05] [ForkJoinPool-1-worker-3/WARN]: Mod usefulbackpacks uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[16:35:05] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[17:47:55] [ForkJoinPool-1-worker-2/WARN]: Mod usefulbackpacks uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:47:56] [ForkJoinPool-1-worker-3/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[16:35:06] [main/WARN]: Warnings were found!
+[17:47:56] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.7+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.7+mod recommends any version of modmenu-badges-lib, which is missing!
@@ -13,7 +13,7 @@
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Keep Inventory Sorted, Simple' (kiss) 0.3.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[16:35:06] [main/INFO]: Loading 169 mods:
+[17:47:56] [main/INFO]: Loading 171 mods:
 	- alternate-current 1.9.0
 	- architectury 13.0.8
 	- artifacts 12.0.6
@@ -125,6 +125,8 @@
 	- fabricshieldlib 1.7.2-1.21.1
 	   |-- midnightlib 1.5.8
 	   \-- mm 2.3
+	- farmersdelight 1.21.1-3.1.2+refabricated
+	   \-- mm 2.3
 	- faster-random 5.1.0
 	- ferritecore 7.0.0
 	- forgeconfigapiport 21.0.8
@@ -157,6 +159,7 @@
 	- minecraft 1.21
 	- mob-ai-tweaks 1.7.7
 	- modernfix 5.19.1+mc1.21
+	- moredelight 25.3.27-1.21-fabric
 	- moremobvariants 1.3.1.1
 	- mr_dungeons_andtaverns 1-v4.4.4
 	- mr_gamingbarns_guns 1-V1.23-data
@@ -206,104 +209,104 @@
 	- yungsapi 1.21.1-Fabric-5.1.3
 	   |-- org_javassist_javassist 3.29.2-GA
 	   \-- org_reflections_reflections 0.10.2
-[16:35:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/filopro/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:35:06] [main/INFO]: Compatibility level set to JAVA_16
-[16:35:06] [main/INFO]: Compatibility level set to JAVA_21
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[16:35:06] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[16:35:06] [main/INFO]: Config noTickViewDistance.enabled changed from true to true
-[16:35:06] [main/INFO]: Config noTickViewDistance.maxConcurrentChunkLoads changed from 2 to 4
-[16:35:06] [main/INFO]: Config noTickViewDistance.compatibilityMode changed from true to true
-[16:35:06] [main/INFO]: Config noTickViewDistance.maxViewDistance changed from 2048 to 16
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[16:35:06] [main/INFO]: Config generalOptimizations.optimizeAsyncChunkRequest changed from false to true
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[16:35:06] [main/INFO]: Config generalOptimizations.midTickChunkTasksInterval changed from 100000 to 25000
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:35:06] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
-[16:35:06] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[16:35:06] [main/INFO]: Config ioSystem.replaceImpl changed from false to true
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[16:35:06] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[16:35:06] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[16:35:06] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Reference map 'elevatorid-common-common-refmap.json' for elevatorid.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:06] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[16:35:06] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 3 override(s) found
-[16:35:06] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 6 override(s) found
-[16:35:06] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[16:35:06] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[16:35:06] [main/WARN]: Option 'mixin.perf.dynamic_entity_renderers' overriden (by user configuration) to 'true'
-[16:35:06] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[16:35:06] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[16:35:06] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[16:35:06] [main/INFO]: Applying Nashorn fix
-[16:35:07] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:07] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:35:07] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[16:35:07] [main/INFO]: Loading Faster Random.
-[16:35:07] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[16:35:07] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[16:35:07] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[16:35:07] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[16:35:07] [main/WARN]: Error loading class: net/minecraft/class_7766 (java.lang.ClassNotFoundException: net/minecraft/class_7766)
-[16:35:07] [main/WARN]: @Mixin target net.minecraft.class_7766 was not found pointblank.fabric.mixins.json:SpriteLoaderMixin from mod pointblank
-[16:35:07] [main/WARN]: Error loading class: dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/TreeFromStructureNBTFeature (java.lang.ClassNotFoundException: dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/TreeFromStructureNBTFeature)
-[16:35:07] [main/WARN]: @Mixin target dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.TreeFromStructureNBTFeature was not found simple_snowy_fix.mixins.json:TreeFromStructureNBTFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AshenTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AshenTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.AshenTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AspenTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AspenTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.AspenTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/CypressTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/CypressTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.CypressTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/DeadTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/DeadTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.DeadTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/GiantCypressTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/GiantCypressTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.GiantCypressTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/KapokTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/KapokTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.KapokTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LushPineTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LushPineTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.LushPineTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/PineTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/PineTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.PineTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/SmallOakTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/SmallOakTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.SmallOakTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/TreeShrubFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/TreeShrubFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.TreeShrubFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/StrippedPineTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/StrippedPineTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.StrippedPineTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LarchTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LarchTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.LarchTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/MapleTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/MapleTreeFeature)
-[16:35:07] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.MapleTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
-[16:35:07] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
-[16:35:07] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
-[16:35:07] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
-[16:35:07] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
-[16:35:07] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
-[16:35:07] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
-[16:35:08] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[16:35:08] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[16:35:08] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[16:35:08] [main/ERROR]: uteamcore.mixins.json:UContainerMenuScreenMixin from mod uteamcore: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
+[17:47:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/filopro/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:47:56] [main/INFO]: Compatibility level set to JAVA_16
+[17:47:56] [main/INFO]: Compatibility level set to JAVA_21
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:47:57] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:47:57] [main/INFO]: Config noTickViewDistance.enabled changed from true to true
+[17:47:57] [main/INFO]: Config noTickViewDistance.maxConcurrentChunkLoads changed from 2 to 4
+[17:47:57] [main/INFO]: Config noTickViewDistance.compatibilityMode changed from true to true
+[17:47:57] [main/INFO]: Config noTickViewDistance.maxViewDistance changed from 2048 to 16
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[17:47:57] [main/INFO]: Config generalOptimizations.optimizeAsyncChunkRequest changed from false to true
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:47:57] [main/INFO]: Config generalOptimizations.midTickChunkTasksInterval changed from 100000 to 25000
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:47:57] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[17:47:57] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:47:57] [main/INFO]: Config ioSystem.replaceImpl changed from false to true
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:47:57] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[17:47:57] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[17:47:57] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'elevatorid-common-common-refmap.json' for elevatorid.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[17:47:57] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 3 override(s) found
+[17:47:57] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 6 override(s) found
+[17:47:57] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[17:47:57] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[17:47:57] [main/WARN]: Option 'mixin.perf.dynamic_entity_renderers' overriden (by user configuration) to 'true'
+[17:47:57] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[17:47:57] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[17:47:57] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[17:47:57] [main/INFO]: Applying Nashorn fix
+[17:47:57] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:47:57] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[17:47:58] [main/INFO]: Loading Faster Random.
+[17:47:58] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[17:47:58] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[17:47:58] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17:47:58] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[17:47:59] [main/WARN]: Error loading class: net/minecraft/class_7766 (java.lang.ClassNotFoundException: net/minecraft/class_7766)
+[17:47:59] [main/WARN]: @Mixin target net.minecraft.class_7766 was not found pointblank.fabric.mixins.json:SpriteLoaderMixin from mod pointblank
+[17:47:59] [main/WARN]: Error loading class: dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/TreeFromStructureNBTFeature (java.lang.ClassNotFoundException: dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/TreeFromStructureNBTFeature)
+[17:47:59] [main/WARN]: @Mixin target dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.TreeFromStructureNBTFeature was not found simple_snowy_fix.mixins.json:TreeFromStructureNBTFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AshenTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AshenTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.AshenTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AspenTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/AspenTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.AspenTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/CypressTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/CypressTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.CypressTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/DeadTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/DeadTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.DeadTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/GiantCypressTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/GiantCypressTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.GiantCypressTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/KapokTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/KapokTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.KapokTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LushPineTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LushPineTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.LushPineTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/PineTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/PineTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.PineTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/SmallOakTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/SmallOakTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.SmallOakTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/TreeShrubFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/TreeShrubFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.TreeShrubFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/StrippedPineTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/StrippedPineTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.StrippedPineTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LarchTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/LarchTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.LarchTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: io/github/uhq_games/regions_unexplored/world/level/feature/tree/MapleTreeFeature (java.lang.ClassNotFoundException: io/github/uhq_games/regions_unexplored/world/level/feature/tree/MapleTreeFeature)
+[17:47:59] [main/WARN]: @Mixin target io.github.uhq_games.regions_unexplored.world.level.feature.tree.MapleTreeFeature was not found simple_snowy_fix-fabric.mixins.json:RUTreeFeatureMixin from mod simple_snowy_fix
+[17:47:59] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
+[17:47:59] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
+[17:47:59] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[17:47:59] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
+[17:47:59] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
+[17:47:59] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
+[17:47:59] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[17:47:59] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[17:47:59] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[17:47:59] [main/ERROR]: uteamcore.mixins.json:UContainerMenuScreenMixin from mod uteamcore: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:593) ~[sponge-mixin-0.15.5+mixin.0.8.7.jar:0.15.5+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:327) ~[sponge-mixin-0.15.5+mixin.0.8.7.jar:0.15.5+mixin.0.8.7]
@@ -332,147 +335,147 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super 
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.3]
-[16:35:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[16:35:08] [main/INFO]: ThreadTweak config initialized
-[16:35:10] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[16:35:10] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[16:35:10] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[16:35:10] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[16:35:10] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[16:35:11] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[16:35:15] [main/INFO]: Vanilla bootstrap took 6911 milliseconds
-[16:35:16] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[16:35:16] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[16:35:16] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[16:35:16] [main/ERROR]: No data fixer registered for artifacts:mimic
-[16:35:16] [main/INFO]: Registered azurelib config for auto-sync function
-[16:35:16] [main/INFO]: Reflections took 46 ms to scan 1 urls, producing 1 keys and 3 values
-[16:35:16] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[16:35:16] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:35:16] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:35:16] [main/INFO]: Chunky extended loaded
-[16:35:16] [main/INFO]: Loading Collective version 7.93.
-[16:35:16] [main/ERROR]: No data fixer registered for jungle_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for bamboo_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for desert_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for badlands_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for hills_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for savannah_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for mushroom_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for swamp_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for dripstone_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for cave_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for dark_oak_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for spruce_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for beach_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for snowy_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for ocean_creeper
-[16:35:16] [main/ERROR]: No data fixer registered for birch_creeper
-[16:35:16] [main/INFO]: [Dynamic Lights] MidnightLib detected!
-[16:35:16] [main/INFO]: [Dynamic Lights] Registering server started event ...
-[16:35:16] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[16:35:16] [main/INFO]: ExpandAbility here, who dis?
-[16:35:16] [main/INFO]: Inicializando mod de armas y herramientas extracurriculares!
-[16:35:16] [main/INFO]: [STDOUT]: Valores de Explosion.DestructionType:
-[16:35:16] [main/INFO]: [STDOUT]:  - KEEP
-[16:35:16] [main/INFO]: [STDOUT]:  - DESTROY
-[16:35:16] [main/INFO]: [STDOUT]:  - DESTROY_WITH_DECAY
-[16:35:16] [main/INFO]: [STDOUT]:  - TRIGGER_BLOCK
-[16:35:16] [main/INFO]: Registrando items...
-[16:35:16] [main/INFO]: Katana registrada exitosamente con ID: extracurricularweaponsandtools:katana
-[16:35:16] [main/INFO]: Verificación exitosa: Katana registrada correctamente en el registro
-[16:35:16] [main/INFO]: Katana encontrada en el registro de items
-[16:35:16] [main/INFO]: Todos los items registrados exitosamente
-[16:35:16] [main/INFO]: Verificando registro de items...
-[16:35:16] [main/INFO]: Katana registrada con ID: extracurricularweaponsandtools:katana
-[16:35:16] [main/INFO]: ¡Mod de armas y herramientas extracurriculares inicializado correctamente!
-[16:35:16] [main/INFO]: Fabric Shield Lib Initialized!
-[16:35:17] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[16:35:17] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[16:35:17] [main/ERROR]: No data fixer registered for biomesoplenty:boat
-[16:35:17] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
-[16:35:17] [main/ERROR]: No data fixer registered for anomaly
-[16:35:17] [main/ERROR]: No data fixer registered for water_purifier
-[16:35:17] [main/ERROR]: No data fixer registered for temperature_gauge
-[16:35:17] [main/ERROR]: No data fixer registered for thermoregulator
-[16:35:17] [main/INFO]: Initializing Gravestones
-[16:35:17] [main/INFO]: [STDOUT]: Inventory Organizer Mod Initialized!
-[16:35:17] [main/INFO]: Initializing ServerSide Packet Registries
-[16:35:17] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[16:35:17] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
-[16:35:17] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
-[16:35:17] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
-[16:35:17] [main/INFO]: Constructing common components for leavesbegone:main
-[16:35:17] [main/INFO]: Definitely not up to no good
-[16:35:17] [main/INFO]: Giving mobs a fresh coat of paint...
-[16:35:17] [main/INFO]: Loading Noisium.
-[16:35:17] [main/INFO]: Initializing PneumonoCore
-[16:35:17] [main/INFO]: Loading mod pointblank
-[16:35:18] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
-[16:35:18] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
-[16:35:18] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
-[16:35:18] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:501)
-[16:35:18] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:482)
-[16:35:18] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:426)
-[16:35:18] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:263)
-[16:35:18] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
-[16:35:18] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
-[16:35:18] [main/INFO]: [STDERR]: 	at knot//net.minecraft.server.Main.main(Main.java:111)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
-[16:35:18] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
-[16:35:18] [main/ERROR]: No data fixer registered for javelin_rocket
-[16:35:18] [main/ERROR]: No data fixer registered for grenade
-[16:35:18] [main/ERROR]: No data fixer registered for at4_rocket
-[16:35:18] [main/ERROR]: No data fixer registered for grenade40mm
-[16:35:18] [main/ERROR]: No data fixer registered for grenade20mm
-[16:35:18] [main/ERROR]: No data fixer registered for smaw_rocket
-[16:35:18] [main/INFO]: Constructing common components for puzzleslib:main
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[16:35:18] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[16:35:18] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[16:35:18] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[16:35:18] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[16:35:18] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[16:35:18] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
-[16:35:18] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[16:35:18] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[16:35:18] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[16:35:18] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[16:35:18] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[16:35:18] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[16:35:18] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[16:35:18] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[16:35:18] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[16:35:18] [main/INFO]: Starting TT20...
-[16:35:18] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
-[16:35:18] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[16:35:18] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[16:35:18] [Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_fabric.json
-[16:35:18] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[16:35:18] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
-[16:35:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:35:19] [Version Check/INFO]: [usefulbackpacks] Found status: OUTDATED Current: ${version} Target: 3.0.0.125
-[16:35:19] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
-[16:35:19] [main/WARN]: Missing data pack additional-armoury
-[16:35:19] [main/WARN]: Missing data pack combat-plus-core
-[16:35:19] [main/WARN]: Missing data pack walkers
-[16:35:19] [Version Check/INFO]: [uteamcore] Found status: UP_TO_DATE Current: 5.6.0.328 Target: null
-[16:35:21] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[16:35:21] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[16:35:21] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[16:35:21] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[16:35:21] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[16:35:22] [main/ERROR]: Parsing error loading recipe pointblank:g3
+[17:47:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:48:00] [main/INFO]: ThreadTweak config initialized
+[17:48:04] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:48:04] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[17:48:04] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[17:48:04] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[17:48:04] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:48:05] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[17:48:10] [main/INFO]: Vanilla bootstrap took 9953 milliseconds
+[17:48:10] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[17:48:10] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[17:48:10] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[17:48:10] [main/ERROR]: No data fixer registered for artifacts:mimic
+[17:48:11] [main/INFO]: Registered azurelib config for auto-sync function
+[17:48:11] [main/INFO]: Reflections took 55 ms to scan 1 urls, producing 1 keys and 3 values
+[17:48:11] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[17:48:11] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[17:48:11] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[17:48:11] [main/INFO]: Chunky extended loaded
+[17:48:11] [main/INFO]: Loading Collective version 7.93.
+[17:48:11] [main/ERROR]: No data fixer registered for jungle_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for bamboo_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for desert_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for badlands_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for hills_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for savannah_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for mushroom_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for swamp_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for dripstone_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for cave_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for dark_oak_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for spruce_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for beach_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for snowy_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for ocean_creeper
+[17:48:11] [main/ERROR]: No data fixer registered for birch_creeper
+[17:48:11] [main/INFO]: [Dynamic Lights] MidnightLib detected!
+[17:48:11] [main/INFO]: [Dynamic Lights] Registering server started event ...
+[17:48:11] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[17:48:11] [main/INFO]: ExpandAbility here, who dis?
+[17:48:11] [main/INFO]: Inicializando mod de armas y herramientas extracurriculares!
+[17:48:11] [main/INFO]: [STDOUT]: Valores de Explosion.DestructionType:
+[17:48:11] [main/INFO]: [STDOUT]:  - KEEP
+[17:48:11] [main/INFO]: [STDOUT]:  - DESTROY
+[17:48:11] [main/INFO]: [STDOUT]:  - DESTROY_WITH_DECAY
+[17:48:11] [main/INFO]: [STDOUT]:  - TRIGGER_BLOCK
+[17:48:11] [main/INFO]: Registrando items...
+[17:48:11] [main/INFO]: Katana registrada exitosamente con ID: extracurricularweaponsandtools:katana
+[17:48:11] [main/INFO]: Verificación exitosa: Katana registrada correctamente en el registro
+[17:48:11] [main/INFO]: Katana encontrada en el registro de items
+[17:48:11] [main/INFO]: Todos los items registrados exitosamente
+[17:48:11] [main/INFO]: Verificando registro de items...
+[17:48:11] [main/INFO]: Katana registrada con ID: extracurricularweaponsandtools:katana
+[17:48:11] [main/INFO]: ¡Mod de armas y herramientas extracurriculares inicializado correctamente!
+[17:48:12] [main/INFO]: Fabric Shield Lib Initialized!
+[17:48:12] [main/INFO]: Loaded config farmersdelight-common.json
+[17:48:12] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[17:48:12] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[17:48:12] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[17:48:12] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[17:48:12] [main/ERROR]: No data fixer registered for anomaly
+[17:48:12] [main/ERROR]: No data fixer registered for water_purifier
+[17:48:12] [main/ERROR]: No data fixer registered for temperature_gauge
+[17:48:12] [main/ERROR]: No data fixer registered for thermoregulator
+[17:48:12] [main/INFO]: Initializing Gravestones
+[17:48:12] [main/INFO]: [STDOUT]: Inventory Organizer Mod Initialized!
+[17:48:12] [main/INFO]: Initializing ServerSide Packet Registries
+[17:48:12] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[17:48:12] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[17:48:12] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[17:48:12] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
+[17:48:12] [main/INFO]: Constructing common components for leavesbegone:main
+[17:48:13] [main/INFO]: Definitely not up to no good
+[17:48:13] [main/INFO]: Giving mobs a fresh coat of paint...
+[17:48:13] [main/INFO]: Loading Noisium.
+[17:48:13] [main/INFO]: Initializing PneumonoCore
+[17:48:13] [main/INFO]: Loading mod pointblank
+[17:48:13] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
+[17:48:13] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[17:48:13] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
+[17:48:13] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:501)
+[17:48:13] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:482)
+[17:48:13] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:426)
+[17:48:13] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:263)
+[17:48:13] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
+[17:48:13] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
+[17:48:13] [main/INFO]: [STDERR]: 	at knot//net.minecraft.server.Main.main(Main.java:111)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+[17:48:13] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+[17:48:13] [main/ERROR]: No data fixer registered for javelin_rocket
+[17:48:13] [main/ERROR]: No data fixer registered for grenade
+[17:48:13] [main/ERROR]: No data fixer registered for at4_rocket
+[17:48:13] [main/ERROR]: No data fixer registered for grenade40mm
+[17:48:13] [main/ERROR]: No data fixer registered for grenade20mm
+[17:48:13] [main/ERROR]: No data fixer registered for smaw_rocket
+[17:48:13] [main/INFO]: Constructing common components for puzzleslib:main
+[17:48:13] [main/INFO]: [REI] Registered plugin provider ServerREIPlugin [farmersdelight] for REIPlugin
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[17:48:13] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[17:48:13] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:48:13] [main/INFO]: [REI] Registered plugin provider ServerREIPlugin [farmersdelight] for REIServerPlugin
+[17:48:13] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[17:48:13] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[17:48:13] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[17:48:13] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[17:48:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[17:48:13] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[17:48:14] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[17:48:14] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[17:48:14] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[17:48:14] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[17:48:14] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[17:48:14] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[17:48:14] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[17:48:14] [main/INFO]: Starting TT20...
+[17:48:14] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[17:48:14] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[17:48:14] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[17:48:14] [Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_fabric.json
+[17:48:14] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[17:48:14] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Running the latest version
+[17:48:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:48:14] [Version Check/INFO]: [usefulbackpacks] Found status: OUTDATED Current: ${version} Target: 3.0.0.125
+[17:48:14] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
+[17:48:14] [Version Check/INFO]: [uteamcore] Found status: UP_TO_DATE Current: 5.6.0.328 Target: null
+[17:48:17] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[17:48:17] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[17:48:17] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[17:48:17] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[17:48:17] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[17:48:19] [main/ERROR]: Parsing error loading recipe pointblank:g3
 com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key item in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key tag in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]; No key item in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]
 	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
@@ -489,403 +492,98 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.3]
-[16:35:22] [main/INFO]: Loaded 3234 recipes
-[16:35:22] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[16:35:22] [main/INFO]: Loaded 1913 advancements
-[16:35:22] [main/INFO]: Reloading config...
-[16:35:22] [main/INFO]: [REI] ========================================
-[16:35:22] [main/INFO]: [REI] REIPlugin starting main-reload for START.
-[16:35:22] [main/INFO]: [REI] Plugins (3):
-[16:35:22] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[16:35:22] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI] ========================================
-[16:35:22] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[16:35:22] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
-[16:35:22] [main/INFO]: [REI] Plugins (3):
-[16:35:22] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[16:35:22] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[16:35:22] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.591 ms, totaling 31.52 ms.
-[16:35:22] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 2.154 ms, totaling 9.970 ms.
-[16:35:22] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[16:35:22] [main/INFO]: [REI] REIPlugin starting main-reload for END.
-[16:35:22] [main/INFO]: [REI] Plugins (3):
-[16:35:22] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[16:35:22] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[16:35:22] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[16:35:22] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
-[16:35:22] [main/INFO]: [REI] Plugins (3):
-[16:35:22] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[16:35:22] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[16:35:22] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[16:35:22] [main/INFO]: [REI] REIPlugin finished post-reload for END in 1.140 ms, totaling 33.12 ms.
-[16:35:22] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 798.2 μs, totaling 10.95 ms.
-[16:35:22] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: forge:bosses
-[16:35:23] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[16:35:23] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[16:35:23] [main/INFO]: Applied 1106 biome modifications to 209 of 229 new biomes in 300.3 ms
-[16:35:23] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
-[16:35:23] [Server thread/INFO]: Starting background profiler...
-[16:35:24] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:35:24] [Server thread/INFO]: Loading properties
-[16:35:24] [Server thread/INFO]: Default game type: SURVIVAL
-[16:35:24] [Server thread/INFO]: Generating keypair
-[16:35:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:35:24] [Server thread/INFO]: Using epoll channel type
-[16:35:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:35:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:35:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:35:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:35:24] [Server thread/INFO]: Preparing level "world"
-[16:35:24] [Server thread/INFO]: Enforcing safe world random access
-[16:35:25] [Server thread/INFO]: Changing watch distance to 8
-[16:35:29] [Server thread/INFO]: Changing watch distance to 8
-[16:35:33] [Server thread/INFO]: Changing watch distance to 8
-[16:35:33] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[16:35:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:35:33] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[16:35:33] [Server thread/INFO]: Time elapsed: 26 ms
-[16:35:33] [Server thread/INFO]: Done (8.932s)! For help, type "help"
-[16:35:33] [Server thread/WARN]: Dedicated server took 28.49 seconds to load
-[16:35:33] [Server thread/INFO]: [Chunky] No tasks to continue.
-[16:35:33] [Server thread/INFO]: [Dynamic Lights] Sending global config to world ...
-[16:35:33] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[16:35:33] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@44a58c98 for service interface journeymap.api.services.ClientPlatformService
-[16:35:33] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@441f7adf for service interface journeymap.api.services.CommonPlatformService
-[16:35:33] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.27": journeymap.server.global.config
-[16:35:33] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
-[16:35:33] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.27": journeymap.server.default.config
-[16:35:33] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
-[16:35:33] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
-[16:35:33] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
-[16:35:33] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
-[16:35:49] [Server thread/INFO]: AuroraSadov[/127.184.225.126:58767] logged in with entity id 1 at (292.0480507497014, 63.0, -554.3653833744942)
-[16:35:49] [Server thread/INFO]: [STDOUT]: Ce : player joined, pausing chunky
-[16:35:49] [Server thread/INFO]: [Chunky] No tasks to pause.
-[16:35:49] [Server thread/INFO]: Creating new config sync packet
-[16:35:49] [Server thread/INFO]: multiplayer.player.joined
-[16:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
-[16:36:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5866ms or 117 ticks behind
-[16:36:31] [Server thread/INFO]: commands.op.success
-[16:36:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[16:36:49] [Server thread/INFO]: List of possible modded bow items are empty, preparing to fill up...
-[16:36:49] [Server thread/INFO]: No modded bow items have been found!
-[16:37:01] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/883, l='ServerLevel[Filopro2]', x=270.50, y=36.00, z=-513.50]
-[16:37:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10131ms or 202 ticks behind
-[16:37:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5316ms or 106 ticks behind
-[16:37:33] [Server thread/INFO]: chat.type.admin
-[16:37:42] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/1957, l='ServerLevel[Filopro2]', x=219.50, y=17.00, z=72.50]
-[16:37:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5889ms or 117 ticks behind
-[16:37:49] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/2326, l='ServerLevel[Filopro2]', x=281.50, y=24.00, z=210.50]
-[16:38:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4672ms or 93 ticks behind
-[16:38:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2731ms or 54 ticks behind
-[16:38:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2304ms or 46 ticks behind
-[16:39:07] [Server thread/INFO]: AuroraSadov teleported to 288.0 63.0 -554.0 minecraft:overworld
-[16:39:10] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/3161, l='ServerLevel[Filopro2]', x=286.50, y=-10.00, z=-553.50]
-[16:39:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[16:41:12] [Server thread/INFO]: AuroraSadov lost connection: multiplayer.disconnect.generic
-[16:41:12] [Server thread/INFO]: multiplayer.player.left
-[16:48:12] [Server thread/WARN]: Invalid statistic in ./world/stats/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json: Don't know what additional-armoury:stone_dagger is
-[16:48:12] [Server thread/WARN]: Invalid statistic in ./world/stats/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json: Don't know what additional-armoury:stone_dagger is
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/stone_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/stone_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/golden_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/wooden_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/iron_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/golden_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/diamond_mace' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/iron_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/diamond_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/WARN]: Ignored advancement 'additional-armoury:recipes/combat/wooden_dagger' in progress file ./world/advancements/88f9ad93-d518-3f9a-99f6-eeb4de8a61c4.json - it doesn't exist anymore?
-[16:48:12] [Server thread/ERROR]: Tried to load invalid item: 'Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: additional-armoury:stone_dagger'
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:golden_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:iron_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:diamond_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_mace removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:wooden_dagger removed now.
-[16:48:12] [Server thread/ERROR]: Tried to load unrecognized recipe: additional-armoury:stone_mace removed now.
-[16:48:12] [Server thread/INFO]: Kafiro[/127.184.225.126:60817] logged in with entity id 3846 at (126.82116513698416, 65.0, 236.72890612156917)
-[16:48:12] [Server thread/INFO]: [STDOUT]: Ce : player joined, pausing chunky
-[16:48:12] [Server thread/INFO]: [Chunky] No tasks to pause.
-[16:48:12] [Server thread/INFO]: Creating new config sync packet
-[16:48:12] [Server thread/INFO]: multiplayer.player.joined
-[16:48:32] [Server thread/INFO]: AuroraSadov[/127.184.225.126:50381] logged in with entity id 4165 at (289.69953077978477, 63.0, -554.1383482334574)
-[16:48:32] [Server thread/INFO]: Creating new config sync packet
-[16:48:32] [Server thread/INFO]: multiplayer.player.joined
-[16:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[16:48:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4899ms or 97 ticks behind
-[16:48:59] [Server thread/INFO]: commands.op.success
-[16:49:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3317ms or 66 ticks behind
-[16:49:20] [Server thread/INFO]: chat.type.admin
-[16:49:28] [Server thread/INFO]: chat.type.admin
-[16:49:33] [Server thread/INFO]: Kafiro teleported to 289.5 63.0 -554.5 minecraft:overworld
-[16:49:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[16:49:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3707ms or 74 ticks behind
-[17:07:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
-[17:08:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4836ms or 96 ticks behind
-[17:08:16] [Server thread/INFO]: chat.type.admin
-[17:08:21] [Server thread/INFO]: chat.type.admin
-[17:08:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3016ms or 60 ticks behind
-[17:08:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2896ms or 57 ticks behind
-[17:09:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2893ms or 57 ticks behind
-[17:09:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2873ms or 57 ticks behind
-[17:09:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2870ms or 57 ticks behind
-[17:09:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2793ms or 55 ticks behind
-[17:10:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2880ms or 57 ticks behind
-[17:10:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2902ms or 58 ticks behind
-[17:10:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2831ms or 56 ticks behind
-[17:11:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2743ms or 54 ticks behind
-[17:11:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2728ms or 54 ticks behind
-[17:11:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2618ms or 52 ticks behind
-[17:12:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2673ms or 53 ticks behind
-[17:12:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2711ms or 54 ticks behind
-[17:12:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2303ms or 46 ticks behind
-[17:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2400ms or 48 ticks behind
-[17:13:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2586ms or 51 ticks behind
-[17:13:27] [Server thread/INFO]: Changing watch distance to 7
-[17:13:27] [Server thread/INFO]: Changing watch distance to 7
-[17:13:27] [Server thread/INFO]: Changing watch distance to 7
-[17:13:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2572ms or 51 ticks behind
-[17:13:38] [Server thread/INFO]: chat.type.admin
-[17:13:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2739ms or 54 ticks behind
-[17:14:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
-[17:14:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2200ms or 44 ticks behind
-[17:14:41] [Server thread/INFO]: Changing watch distance to 6
-[17:14:41] [Server thread/INFO]: Changing watch distance to 6
-[17:14:41] [Server thread/INFO]: Changing watch distance to 6
-[17:14:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7596ms or 151 ticks behind
-[17:15:03] [Server thread/INFO]: chat.type.admin
-[17:15:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6963ms or 139 ticks behind
-[17:15:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3454ms or 69 ticks behind
-[17:15:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4067ms or 81 ticks behind
-[17:15:59] [Server thread/INFO]: Changing watch distance to 5
-[17:15:59] [Server thread/INFO]: Changing watch distance to 5
-[17:15:59] [Server thread/INFO]: Changing watch distance to 5
-[17:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3605ms or 72 ticks behind
-[17:16:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[17:16:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3599ms or 71 ticks behind
-[17:16:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6737ms or 134 ticks behind
-[17:17:17] [Server thread/INFO]: Changing watch distance to 4
-[17:17:17] [Server thread/INFO]: Changing watch distance to 4
-[17:17:17] [Server thread/INFO]: Changing watch distance to 4
-[17:17:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5974ms or 119 ticks behind
-[17:17:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6179ms or 123 ticks behind
-[17:18:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6112ms or 122 ticks behind
-[17:18:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5655ms or 113 ticks behind
-[17:18:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5440ms or 108 ticks behind
-[17:19:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6048ms or 120 ticks behind
-[17:19:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3896ms or 77 ticks behind
-[17:19:40] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/9247, l='ServerLevel[Filopro2]', x=205.50, y=-39.00, z=-228.50]
-[17:19:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4097ms or 81 ticks behind
-[17:20:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6750ms or 135 ticks behind
-[17:20:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8169ms or 163 ticks behind
-[17:20:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11270ms or 225 ticks behind
-[17:20:58] [Server thread/INFO]: death.attack.arrow
-[17:20:58] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (180, 68, 45)
-[17:21:10] [Server thread/INFO]: AuroraSadov teleported to 180.5 68.0 45.5 minecraft:overworld
-[17:21:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[17:21:14] [Server thread/INFO]: AuroraSadov has found their grave at (180, 68, 45)
-[17:21:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4138ms or 82 ticks behind
-[17:21:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10373ms or 207 ticks behind
-[17:22:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8539ms or 170 ticks behind
-[17:22:22] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/11175, l='ServerLevel[Filopro2]', x=178.50, y=67.00, z=204.50]
-[17:22:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3329ms or 66 ticks behind
-[17:22:50] [Server thread/INFO]: Changing watch distance to 5
-[17:22:50] [Server thread/INFO]: Changing watch distance to 5
-[17:22:50] [Server thread/INFO]: Changing watch distance to 5
-[17:23:50] [Server thread/INFO]: Changing watch distance to 6
-[17:23:50] [Server thread/INFO]: Changing watch distance to 6
-[17:23:50] [Server thread/INFO]: Changing watch distance to 6
-[17:25:39] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/11929, l='ServerLevel[Filopro2]', x=44.50, y=5.00, z=341.50]
-[17:27:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[17:27:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4217ms or 84 ticks behind
-[17:28:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4717ms or 94 ticks behind
-[17:45:24] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/19676, l='ServerLevel[Filopro2]', x=-6.50, y=36.00, z=222.50]
-[17:48:51] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/20874, l='ServerLevel[Filopro2]', x=119.50, y=7.00, z=218.50]
-[17:50:38] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/21322, l='ServerLevel[Filopro2]', x=36.50, y=12.00, z=287.50]
-[17:51:50] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/21879, l='ServerLevel[Filopro2]', x=70.50, y=22.00, z=219.50]
-[17:52:32] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/22483, l='ServerLevel[Filopro2]', x=49.50, y=-6.00, z=252.50]
-[17:54:06] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/23430, l='ServerLevel[Filopro2]', x=106.50, y=-1.00, z=205.50]
-[17:55:18] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/23963, l='ServerLevel[Filopro2]', x=-16.50, y=-30.00, z=225.50]
-[17:57:38] [Server thread/INFO]: death.attack.arrow
-[17:57:38] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (19, -45, 304)
-[17:57:50] [Server thread/INFO]: AuroraSadov teleported to 20.5 -44.0 304.5 minecraft:overworld
-[17:57:53] [Server thread/INFO]: AuroraSadov has found their grave at (19, -45, 304)
-[18:07:09] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
-[18:07:09] [Server thread/INFO]: No modded crossbow items have been found!
-[18:07:17] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/28310, l='ServerLevel[Filopro2]', x=-39.50, y=22.00, z=323.50]
-[18:10:52] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/29809, l='ServerLevel[Filopro2]', x=-3.50, y=-38.00, z=279.50]
-[18:11:05] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/29945, l='ServerLevel[Filopro2]', x=103.50, y=-15.00, z=396.50]
-[18:11:48] [Server thread/INFO]: death.attack.mob
-[18:11:48] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (31, 7, 328)
-[18:11:49] [Server thread/INFO]: death.attack.mob
-[18:11:49] [Server thread/INFO]: Placed Kafiro's Gravestone at (33, 5, 338)
-[18:11:49] [Server thread/WARN]: Kafiro moved wrongly!
-[18:12:07] [Server thread/INFO]: Kafiro teleported to 33.5 4.0 339.5 minecraft:overworld
-[18:12:09] [Server thread/INFO]: Kafiro has found their grave at (33, 5, 338)
-[18:12:18] [Server thread/INFO]: AuroraSadov teleported to 31.5 7.0 328.5 minecraft:overworld
-[18:12:20] [Server thread/INFO]: AuroraSadov has found their grave at (31, 7, 328)
-[18:14:26] [Server thread/WARN]: UUID of added entity already exists: class_9254['entity.minecraft.bogged'/31705, l='ServerLevel[Filopro2]', x=-6.50, y=78.00, z=299.50]
-[18:14:36] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/31850, l='ServerLevel[Filopro2]', x=-21.50, y=-30.00, z=247.50]
-[18:22:26] [Server thread/INFO]: death.attack.mob
-[18:22:26] [Server thread/INFO]: Placed Kafiro's Gravestone at (13, 14, 312)
-[18:22:29] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/34818, l='ServerLevel[Filopro2]', x=177.50, y=42.00, z=252.50]
-[18:22:37] [Server thread/INFO]: Kafiro teleported to 12.5 15.0 312.5 minecraft:overworld
-[18:22:38] [Server thread/INFO]: Kafiro has found their grave at (13, 14, 312)
-[18:24:01] [Server thread/INFO]: chat.type.admin
-[18:24:14] [Server thread/INFO]: chat.type.admin
-[18:26:52] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/36214, l='ServerLevel[Filopro2]', x=82.50, y=5.00, z=246.50]
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.8014267610907382
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.40711182095941467
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.9175639256324075
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2789322963161567
-[18:27:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2789322963161567
-[18:27:46] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3825263847849101
-[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3345034479552851
-[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.8822752599916157
-[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.4094042629509431
-[18:27:47] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.9181240082448312
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.788444328839887
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.8183304362592594
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.8519205467845268
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.8793151009560347
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.0
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.0
-[18:27:51] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.0624818626585357
-[18:28:02] [Server thread/INFO]: death.attack.lightningBolt
-[18:28:02] [Server thread/INFO]: Placed Kafiro's Gravestone at (30, -12, 349)
-[18:28:12] [Server thread/INFO]: Kafiro teleported to 30.5 -12.0 349.5 minecraft:overworld
-[18:28:14] [Server thread/INFO]: Kafiro has found their grave at (30, -12, 349)
-[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.6988611607741383
-[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7285270208854691
-[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7683795167320966
-[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3247838548375377
-[18:29:12] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.6225047226520566
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7303444045596592
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7336094616588937
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7425236315564021
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.7537617105030918
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.7662432668482495
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7715643712756517
-[18:29:13] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3726077169206121
-[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3196463216752292
-[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2751480577361676
-[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:29:14] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3091909101378363
-[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.7982564348016155
-[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.797685556881703
-[18:29:15] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.780364748933394
-[18:29:37] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.3823357311151767
-[18:29:37] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:29:37] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:29:38] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0
-[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.33891275581301805
-[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.6492037855128026
-[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
-[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
-[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
-[18:29:48] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 1.0307764064044151
-[18:30:01] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.2844841160114271
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 0.7829538562777894
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.770560575154657
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 3.128600349491399
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.773680942220695
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.773680942220695
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.770560575154657
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.729832250307339
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.693691222445873
-[18:30:02] [Server thread/WARN]: entity.minecraft.zombie_horse (vehicle of Kafiro) moved wrongly! 2.6744252776331283
-[18:31:13] [Server thread/INFO]: death.attack.mob
-[18:31:13] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (29, 10, 315)
-[18:31:24] [Server thread/INFO]: AuroraSadov teleported to 29.5 10.0 315.5 minecraft:overworld
-[18:31:25] [Server thread/INFO]: AuroraSadov has found their grave at (29, 10, 315)
-[18:32:31] [Server thread/INFO]: death.attack.player
-[18:32:31] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (51, 7, 343)
-[18:32:40] [Server thread/INFO]: AuroraSadov teleported to 51.5 7.0 343.5 minecraft:overworld
-[18:32:41] [Server thread/INFO]: AuroraSadov has found their grave at (51, 7, 343)
-[18:33:58] [Server thread/INFO]: chat.type.advancement.task
-[18:37:25] [Server thread/INFO]: death.attack.mob
-[18:37:25] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (31, -2, 364)
-[18:37:36] [Server thread/INFO]: AuroraSadov teleported to 31.5 -2.0 364.5 minecraft:overworld
-[18:37:38] [Server thread/INFO]: death.attack.mob
-[18:37:38] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (29, -2, 364)
-[18:37:42] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/41459, l='ServerLevel[Filopro2]', x=67.50, y=69.00, z=150.50]
-[18:37:48] [Server thread/INFO]: AuroraSadov teleported to 31.5 -2.0 364.5 minecraft:overworld
-[18:37:49] [Server thread/INFO]: AuroraSadov has found their grave at (31, -2, 364)
-[18:37:55] [Server thread/INFO]: death.attack.mob
-[18:37:55] [Server thread/INFO]: Placed Kafiro's Gravestone at (32, -2, 366)
-[18:38:02] [Server thread/INFO]: death.attack.mob
-[18:38:02] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (27, -1, 363)
-[18:38:04] [Server thread/INFO]: Kafiro teleported to 32.5 -2.0 366.5 minecraft:overworld
-[18:38:06] [Server thread/INFO]: Kafiro has found their grave at (32, -2, 366)
-[18:38:15] [Server thread/INFO]: AuroraSadov teleported to 27.5 -1.0 363.5 minecraft:overworld
-[18:38:18] [Server thread/INFO]: AuroraSadov has found their grave at (29, -2, 364)
-[18:38:19] [Server thread/INFO]: AuroraSadov has found their grave at (27, -1, 363)
-[18:38:29] [Server thread/INFO]: chat.type.advancement.task
-[18:38:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[18:38:59] [Server thread/INFO]: death.attack.mob
-[18:38:59] [Server thread/INFO]: Placed Kafiro's Gravestone at (28, -2, 362)
-[18:39:08] [Server thread/INFO]: Kafiro teleported to 28.5 -2.0 361.5 minecraft:overworld
-[18:39:09] [Server thread/INFO]: Kafiro has found their grave at (28, -2, 362)
-[18:39:18] [Server thread/INFO]: death.attack.mob
-[18:39:18] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (28, -2, 364)
-[18:39:27] [Server thread/INFO]: AuroraSadov teleported to 28.5 -2.0 364.5 minecraft:overworld
-[18:39:29] [Server thread/INFO]: AuroraSadov has found their grave at (28, -2, 364)
-[18:43:11] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/44580, l='ServerLevel[Filopro2]', x=-22.50, y=-26.00, z=247.50]
-[18:43:16] [Server thread/WARN]: Skipping Entity with id mobs_of_mythology:kobold
-[18:43:26] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/44703, l='ServerLevel[Filopro2]', x=-48.50, y=8.00, z=464.50]
-[18:45:01] [Server thread/INFO]: death.attack.mob
-[18:45:01] [Server thread/INFO]: Placed Kafiro's Gravestone at (-54, 15, 394)
-[18:45:13] [Server thread/INFO]: Kafiro teleported to -52.5 15.0 393.5 minecraft:overworld
-[18:45:15] [Server thread/INFO]: Kafiro has found their grave at (-54, 15, 394)
-[18:45:38] [Server thread/INFO]: death.attack.mob
-[18:45:38] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-40, 0, 396)
-[18:45:38] [Server thread/WARN]: AuroraSadov moved wrongly!
-[18:45:50] [Server thread/INFO]: AuroraSadov teleported to -38.5 0.0 398.5 minecraft:overworld
-[18:45:53] [Server thread/INFO]: AuroraSadov has found their grave at (-40, 0, 396)
-[18:46:02] [Server thread/INFO]: death.attack.onFire
-[18:46:02] [Server thread/INFO]: Placed Kafiro's Gravestone at (-36, 0, 392)
-[18:46:05] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/46910, l='ServerLevel[Filopro2]', x=115.50, y=-11.00, z=215.50]
-[18:46:09] [Server thread/INFO]: Kafiro teleported to -36.5 0.0 392.5 minecraft:overworld
-[18:46:11] [Server thread/INFO]: Kafiro has found their grave at (-36, 0, 392)
-[18:47:21] [Server thread/WARN]: Skipping Entity with id mobs_of_mythology:kobold_warrior
-[18:47:37] [Server thread/WARN]: Skipping Entity with id mobs_of_mythology:kobold
-[18:48:04] [Server thread/WARN]: Skipping Entity with id mobs_of_mythology:kobold
-[18:48:42] [Server thread/INFO]: chat.type.advancement.task
-[18:53:01] [Server thread/INFO]: death.attack.mob
-[18:53:01] [Server thread/INFO]: Placed Kafiro's Gravestone at (-141, 6, 242)
-[18:53:07] [Server thread/INFO]: Kafiro teleported to -140.5 6.0 242.5 minecraft:overworld
-[18:53:11] [Server thread/INFO]: Kafiro has found their grave at (-141, 6, 242)
-[18:53:52] [Server thread/INFO]: death.attack.mob
-[18:53:52] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-166, 2, 266)
-[18:54:03] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/51518, l='ServerLevel[Filopro2]', x=134.50, y=-15.00, z=130.50]
-[18:54:03] [Server thread/INFO]: AuroraSadov teleported to -165.5 2.0 266.5 minecraft:overworld
-[18:54:10] [Server thread/INFO]: AuroraSadov has found their grave at (-166, 2, 266)
-[18:55:56] [Server thread/INFO]: death.attack.mob
-[18:55:56] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-151, 8, 261)
-[18:56:00] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/53062, l='ServerLevel[Filopro2]', x=85.50, y=38.00, z=113.50]
-[18:56:04] [Server thread/INFO]: AuroraSadov teleported to -150.5 8.0 261.5 minecraft:overworld
-[18:56:08] [Server thread/INFO]: AuroraSadov has found their grave at (-151, 8, 261)
+[17:48:19] [main/INFO]: Loaded 3588 recipes
+[17:48:19] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[17:48:19] [main/INFO]: Loaded 2163 advancements
+[17:48:19] [main/INFO]: Reloading config...
+[17:48:19] [main/INFO]: [REI] ----------------------------------------
+[17:48:19] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[17:48:19] [main/INFO]: [REI] Plugins (4):
+[17:48:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:48:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) ServerREIPlugin of ServerREIPlugin [farmersdelight]
+[17:48:19] [main/INFO]: [REI] ----------------------------------------
+[17:48:19] [main/INFO]: [REI] ****************************************
+[17:48:19] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[17:48:19] [main/INFO]: [REI] Plugins (4):
+[17:48:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:48:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) ServerREIPlugin of ServerREIPlugin [farmersdelight]
+[17:48:19] [main/INFO]: [REI] ****************************************
+[17:48:19] [main/INFO]: [REI] REIPlugin finished post-reload for START in 1.877 ms, totaling 40.20 ms.
+[17:48:19] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 1.090 ms, totaling 5.142 ms.
+[17:48:19] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:48:19] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[17:48:19] [main/INFO]: [REI] Plugins (4):
+[17:48:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:48:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) ServerREIPlugin of ServerREIPlugin [farmersdelight]
+[17:48:19] [main/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[17:48:19] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[17:48:19] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[17:48:19] [main/INFO]: [REI] Plugins (4):
+[17:48:19] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[17:48:19] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[17:48:19] [main/INFO]: [REI]  - (0.00) ServerREIPlugin of ServerREIPlugin [farmersdelight]
+[17:48:19] [main/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[17:48:19] [main/INFO]: [REI] REIPlugin finished post-reload for END in 908.7 μs, totaling 37.49 ms.
+[17:48:19] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 644.0 μs, totaling 10.98 ms.
+[17:48:19] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: forge:bosses
+[17:48:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[17:48:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[17:48:20] [main/INFO]: Applied 1431 biome modifications to 209 of 229 new biomes in 407.1 ms
+[17:48:20] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[17:48:21] [Server thread/INFO]: Starting background profiler...
+[17:48:22] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:48:22] [Server thread/INFO]: Loading properties
+[17:48:22] [Server thread/INFO]: Default game type: SURVIVAL
+[17:48:22] [Server thread/INFO]: Generating keypair
+[17:48:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:48:22] [Server thread/INFO]: Using epoll channel type
+[17:48:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:48:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:48:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:48:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:48:22] [Server thread/INFO]: Preparing level "world"
+[17:48:22] [Server thread/INFO]: Enforcing safe world random access
+[17:48:23] [Server thread/INFO]: Changing watch distance to 8
+[17:48:29] [Server thread/INFO]: Changing watch distance to 8
+[17:48:29] [Server thread/INFO]: Changing watch distance to 8
+[17:48:29] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[17:48:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:48:29] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[17:48:29] [Server thread/INFO]: Time elapsed: 43 ms
+[17:48:29] [Server thread/INFO]: Done (7.554s)! For help, type "help"
+[17:48:29] [Server thread/WARN]: Dedicated server took 36.105 seconds to load
+[17:48:30] [Server thread/INFO]: [Chunky] No tasks to continue.
+[17:48:30] [Server thread/INFO]: [Dynamic Lights] Sending global config to world ...
+[17:48:30] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[17:48:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@15d1ec6e for service interface journeymap.api.services.ClientPlatformService
+[17:48:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@693327ad for service interface journeymap.api.services.CommonPlatformService
+[17:53:26] [Server thread/INFO]: Kafiro[/127.184.225.126:48441] logged in with entity id 1 at (-273.23777331597563, -2.125, 122.1257110172907)
+[17:53:26] [Server thread/INFO]: [STDOUT]: Ce : player joined, pausing chunky
+[17:53:26] [Server thread/INFO]: [Chunky] No tasks to pause.
+[17:53:26] [Server thread/INFO]: Creating new config sync packet
+[17:53:26] [Server thread/INFO]: multiplayer.player.joined
+[17:53:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[17:53:32] [Server thread/INFO]: AuroraSadov[/127.184.225.126:55927] logged in with entity id 97 at (-33.35760244864061, -19.0, -14.349844602522634)
+[17:53:32] [Server thread/INFO]: Creating new config sync packet
+[17:53:32] [Server thread/INFO]: multiplayer.player.joined
+[17:53:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5308ms or 106 ticks behind
+[17:54:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[17:55:03] [Server thread/INFO]: List of possible modded bow items are empty, preparing to fill up...
+[17:55:03] [Server thread/INFO]: No modded bow items have been found!
+[17:55:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2962ms or 59 ticks behind
+[17:56:19] [Server thread/INFO]: death.attack.mob
+[17:56:19] [Server thread/INFO]: Placed Kafiro's Gravestone at (-77, -4, 62)
+[17:56:34] [Server thread/INFO]: Kafiro teleported to -76.5 -4.0 62.5 minecraft:overworld
+[17:56:35] [Server thread/INFO]: Kafiro has found their grave at (-77, -4, 62)
+[17:56:59] [Server thread/INFO]: death.attack.explosion.player
+[17:56:59] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-19, -16, -16)
+[17:57:05] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/3012, l='ServerLevel[Filopro2]', x=205.50, y=2.00, z=172.50]
+[17:57:11] [Server thread/INFO]: AuroraSadov teleported to -18.5 -17.0 -15.5 minecraft:overworld
+[17:57:32] [Server thread/INFO]: AuroraSadov has found their grave at (-19, -16, -16)
