@@ -595,3 +595,12 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [18:04:45] [Server thread/INFO]: Kafiro has found their grave at (-82, -36, 80)
 [18:05:29] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/7646, l='ServerLevel[Filopro2]', x=-124.50, y=34.00, z=2.50]
 [18:06:02] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/8198, l='ServerLevel[Filopro2]', x=3.50, y=26.00, z=70.50]
+[18:12:26] [Server thread/INFO]: death.attack.explosion.player
+[18:12:26] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-100, -30, 12)
+[18:12:36] [Server thread/INFO]: AuroraSadov teleported to -100.5 -31.0 12.5 minecraft:overworld
+[18:12:38] [Server thread/INFO]: AuroraSadov has found their grave at (-100, -30, 12)
+[18:14:52] [Server thread/INFO]: death.attack.arrow
+[18:14:52] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-124, -31, -11)
+[18:14:58] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/13697, l='ServerLevel[Filopro2]', x=56.50, y=13.00, z=200.50]
+[18:15:01] [Server thread/INFO]: AuroraSadov teleported to -123.5 -32.0 -10.5 minecraft:overworld
+[18:15:19] [Server thread/INFO]: AuroraSadov has found their grave at (-124, -31, -11)
