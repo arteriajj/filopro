@@ -831,3 +831,14 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [02:05:18] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/33746, l='ServerLevel[Filopro2]', x=57.50, y=82.00, z=288.50]
 [02:06:35] [Server thread/INFO]: chat.type.admin
 [02:08:05] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/34390, l='ServerLevel[Filopro2]', x=141.50, y=75.00, z=332.50]
+[02:10:53] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/34799, l='ServerLevel[Filopro2]', x=128.50, y=-35.00, z=150.50]
+[02:12:43] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/35410, l='ServerLevel[Filopro2]', x=127.50, y=48.00, z=286.50]
+[02:14:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[02:15:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3631ms or 72 ticks behind
+[02:15:25] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/36300, l='ServerLevel[Filopro2]', x=50.50, y=12.00, z=288.50]
+[02:15:33] [Server thread/INFO]: AuroraSadov overheated to death
+[02:15:33] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (135, 71, 250)
+[02:15:39] [Server thread/INFO]: AuroraSadov teleported to 134.5 70.0 250.5 minecraft:overworld
+[02:15:40] [Server thread/INFO]: AuroraSadov has found their grave at (135, 71, 250)
+[02:15:42] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/36471, l='ServerLevel[Filopro2]', x=31.50, y=7.00, z=236.50]
+[02:19:35] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/37044, l='ServerLevel[Filopro2]', x=84.50, y=55.00, z=184.50]
