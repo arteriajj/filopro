@@ -3500,30 +3500,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/rabbit_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-02 18:44:00 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/steak_and_potatoes": {
-    "criteria": {
-      "has_baked_potato": "2025-07-02 18:44:00 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/glow_berry_custard": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-02 18:54:15 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/food/toast_with_glow_berries": {
-    "criteria": {
-      "has_glow_berries": "2025-07-02 18:54:15 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/food/roasted_mutton_chops": {
     "criteria": {
       "has_mutton": "2025-07-02 18:43:54 +0000"
@@ -3533,12 +3509,6 @@
   "moredelight:recipes/food/porkchop_sandwich": {
     "criteria": {
       "has_cooked_porkchop": "2025-07-02 18:43:54 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/stuffed_potato": {
-    "criteria": {
-      "has_baked_potato": "2025-07-02 18:44:00 +0000"
     },
     "done": true
   },
@@ -3554,9 +3524,51 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-02 18:44:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2025-07-02 18:44:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-07-02 18:44:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/raw_copper": {
     "criteria": {
       "has_raw_copper_block": "2025-07-02 18:44:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-02 18:54:15 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/toast_with_glow_berries": {
+    "criteria": {
+      "has_glow_berries": "2025-07-02 18:54:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-02 20:58:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-07-02 20:58:31 +0000"
     },
     "done": true
   },
