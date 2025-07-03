@@ -820,3 +820,14 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [01:56:41] [Server thread/INFO]: Kafiro[/127.184.225.126:34763] logged in with entity id 31552 at (132.2733329794261, 79.0, 255.00715567766682)
 [01:56:41] [Server thread/INFO]: Creating new config sync packet
 [01:56:41] [Server thread/INFO]: multiplayer.player.joined
+[02:00:21] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/28185, l='ServerLevel[Filopro2]', x=90.51, y=79.00, z=214.71] died, message: 'death.attack.mob'
+[02:03:25] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager.none'/12096, l='ServerLevel[Filopro2]', x=100.75, y=79.00, z=251.07] died, message: 'death.attack.mob'
+[02:03:41] [Server thread/INFO]: Villager class_1646['entity.minecraft.villager x9'/28178, l='ServerLevel[Filopro2]', x=113.33, y=78.00, z=236.66] died, message: 'death.attack.mob'
+[02:03:41] [Server thread/INFO]: Named entity class_1646['entity.minecraft.villager x9'/28178, l='ServerLevel[Filopro2]', x=113.33, y=78.00, z=236.66] died: death.attack.mob
+[02:03:46] [Server thread/INFO]: Named entity class_1641['entity.minecraft.villager x9'/33489, l='ServerLevel[Filopro2]', x=109.43, y=79.00, z=240.69] died: death.attack.mob
+[02:03:55] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/33549, l='ServerLevel[Filopro2]', x=46.69, y=44.00, z=218.35]
+[02:03:59] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/33574, l='ServerLevel[Filopro2]', x=196.50, y=69.00, z=232.50]
+[02:04:36] [Server thread/INFO]: chat.type.admin
+[02:05:18] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/33746, l='ServerLevel[Filopro2]', x=57.50, y=82.00, z=288.50]
+[02:06:35] [Server thread/INFO]: chat.type.admin
+[02:08:05] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/34390, l='ServerLevel[Filopro2]', x=141.50, y=75.00, z=332.50]
