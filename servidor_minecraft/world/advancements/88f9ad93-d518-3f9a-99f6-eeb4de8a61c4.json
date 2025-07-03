@@ -3599,5 +3599,17 @@
     },
     "done": true
   },
+  "moredelight:recipes/food/steak_sandwich": {
+    "criteria": {
+      "has_cooked_beef": "2025-07-03 02:16:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:24:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
