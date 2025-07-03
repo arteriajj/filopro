@@ -580,3 +580,42 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [00:56:45] [Server thread/INFO]: AuroraSadov lost connection: multiplayer.disconnect.generic
 [00:56:45] [Server thread/INFO]: multiplayer.player.left
 [00:56:45] [Server thread/WARN]: handleDisconnection() called twice
+[00:59:19] [Server thread/INFO]: Kafiro[/127.184.225.126:53297] logged in with entity id 1593 at (-47.90225240219978, -35.0, -69.30785383436756)
+[00:59:19] [Server thread/INFO]: [STDOUT]: Ce : player joined, pausing chunky
+[00:59:19] [Server thread/INFO]: [Chunky] No tasks to pause.
+[00:59:19] [Server thread/INFO]: Creating new config sync packet
+[00:59:19] [Server thread/INFO]: multiplayer.player.joined
+[00:59:31] [Server thread/INFO]: AuroraSadov[/127.184.225.126:52831] logged in with entity id 1899 at (-48.30000001192093, -37.0, -64.69999998807907)
+[00:59:31] [Server thread/INFO]: Creating new config sync packet
+[00:59:31] [Server thread/INFO]: multiplayer.player.joined
+[00:59:45] [Server thread/INFO]: death.attack.mob
+[00:59:45] [Server thread/INFO]: Placed Kafiro's Gravestone at (-48, -35, -70)
+[00:59:51] [Server thread/INFO]: Kafiro lost connection: multiplayer.disconnect.generic
+[00:59:51] [Server thread/INFO]: multiplayer.player.left
+[01:00:01] [Server thread/INFO]: AuroraSadov lost connection: multiplayer.disconnect.generic
+[01:00:01] [Server thread/INFO]: multiplayer.player.left
+[01:00:03] [Server thread/INFO]: Kafiro[/127.184.225.126:46057] logged in with entity id 1922 at (-47.90225240219978, -35.0, -69.30785383436756)
+[01:00:03] [Server thread/INFO]: [STDOUT]: Ce : player joined, pausing chunky
+[01:00:03] [Server thread/INFO]: [Chunky] No tasks to pause.
+[01:00:03] [Server thread/INFO]: Creating new config sync packet
+[01:00:03] [Server thread/INFO]: multiplayer.player.joined
+[01:00:15] [Server thread/INFO]: AuroraSadov[/127.184.225.126:33563] logged in with entity id 2346 at (-48.30000001192093, -37.0, -64.69999998807907)
+[01:00:15] [Server thread/INFO]: Creating new config sync packet
+[01:00:15] [Server thread/INFO]: multiplayer.player.joined
+[01:00:19] [Server thread/INFO]: death.attack.mob
+[01:00:19] [Server thread/INFO]: Placed AuroraSadov's Gravestone at (-49, -37, -65)
+[01:00:21] [Server thread/INFO]: chat.type.admin
+[01:00:34] [Server thread/INFO]: Kafiro has found their grave at (-48, -35, -70)
+[01:00:56] [Server thread/INFO]: AuroraSadov teleported to -48.5 -37.0 -64.5 minecraft:overworld
+[01:01:17] [Server thread/INFO]: AuroraSadov has found their grave at (-49, -37, -65)
+[01:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[01:02:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2932ms or 58 ticks behind
+[01:04:35] [Server thread/WARN]: entity.minecraft.skeleton_horse (vehicle of AuroraSadov) moved wrongly! 0.2987208271960924
+[01:04:35] [Server thread/WARN]: entity.minecraft.skeleton_horse (vehicle of AuroraSadov) moved wrongly! 0.6351748870034157
+[01:04:35] [Server thread/WARN]: entity.minecraft.skeleton_horse (vehicle of AuroraSadov) moved wrongly! 0.978641074302999
+[01:04:35] [Server thread/WARN]: entity.minecraft.skeleton_horse (vehicle of AuroraSadov) moved wrongly! 1.3307692017989723
+[01:06:31] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
+[01:06:31] [Server thread/INFO]: No modded crossbow items have been found!
+[01:07:31] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/6912, l='ServerLevel[Filopro2]', x=-85.50, y=67.00, z=-22.50]
+[01:07:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[01:08:43] [Server thread/INFO]: chat.type.admin
