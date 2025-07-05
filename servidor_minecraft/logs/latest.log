@@ -1008,3 +1008,6 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [03:05:32] [Server thread/INFO]: Changing watch distance to 6
 [03:05:32] [Server thread/INFO]: Changing watch distance to 6
 [03:05:32] [Server thread/INFO]: Changing watch distance to 6
+[03:10:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[03:12:54] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/30754, l='ServerLevel[Filopro2]', x=-1700.50, y=129.00, z=-1562.50]
+[03:19:05] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/31301, l='ServerLevel[Filopro2]', x=-1724.50, y=118.00, z=-1482.50]
