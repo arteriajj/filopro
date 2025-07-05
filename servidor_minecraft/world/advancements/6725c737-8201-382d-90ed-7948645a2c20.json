@@ -3285,21 +3285,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+  "farmersdelight:recipes/combat/golden_knife": {
     "criteria": {
-      "has_lilac": "2025-07-03 03:10:01 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg_from_smoking": {
-    "criteria": {
-      "fried_egg": "2025-07-03 02:29:25 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 02:57:04 +0000"
+      "has_gold_ingot": "2025-07-03 02:04:42 +0000"
     },
     "done": true
   },
@@ -3309,87 +3297,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
-    "criteria": {
-      "has_iron_knife": "2025-07-03 03:27:37 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/find_shrine": {
-    "criteria": {
-      "shrine_combat": "2025-07-03 03:21:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2025-07-03 02:29:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:wander_add_map": {
-    "criteria": {
-      "wandering": "2025-07-03 02:42:36 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/food/melon_juice": {
     "criteria": {
       "has_melon_slice": "2025-07-03 02:15:00 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
-    "criteria": {
-      "has_pumpkin": "2025-07-03 02:52:03 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/cooking/cooked_rice_with_beef": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:29:00 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/cooking/cooked_rice_with_porkchop": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:28:12 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 02:57:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-07-03 03:04:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
-    "criteria": {
-      "has_iron_knife": "2025-07-03 03:27:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2025-07-03 02:57:04 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/cooking/diced_potatoes_with_chicken_cuts": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:37:08 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-07-03 03:28:48 +0000"
     },
     "done": true
   },
@@ -3399,33 +3309,57 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/roast_chicken_block": {
-    "criteria": {
-      "has_cooked_chicken": "2025-07-03 03:28:54 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
-    "criteria": {
-      "beef_patty": "2025-07-03 03:28:45 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/noodle_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:28:12 +0000"
-    },
-    "done": true
-  },
   "toughasnails:recipes/food/melon_juice": {
     "criteria": {
       "has_melon_slice": "2025-07-03 02:15:00 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/chicken_soup": {
+  "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
-      "has_any_ingredient": "2025-07-03 03:37:08 +0000"
+      "has_melon": "2025-07-03 02:15:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-07-03 02:15:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-07-03 02:26:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-07-03 02:26:19 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:29:11 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-07-03 02:29:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-07-03 02:29:25 +0000"
     },
     "done": true
   },
@@ -3435,15 +3369,27 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
+  "farmersdelight:recipes/cooking/fried_rice": {
     "criteria": {
-      "has_any_ingredient": "2025-07-03 02:57:04 +0000"
+      "has_any_ingredient": "2025-07-03 02:29:25 +0000"
     },
     "done": true
   },
-  "moredelight:recipes/food/chicken_sandwich_with_egg_and_tomato": {
+  "farmersdelight:recipes/food/fried_egg": {
     "criteria": {
-      "has_cooked_chicken": "2025-07-03 03:28:54 +0000"
+      "fried_egg": "2025-07-03 02:29:25 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-07-03 02:29:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:wander_add_map": {
+    "criteria": {
+      "wandering": "2025-07-03 02:42:36 +0000"
     },
     "done": true
   },
@@ -3453,9 +3399,123 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/bamboo_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-07-03 02:50:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_mosaic": {
+    "criteria": {
+      "has_bamboo_slab": "2025-07-03 02:50:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-07-03 02:52:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:52:03 +0000"
+    },
+    "done": true
+  },
   "mcwlights:recipes/redstone_slab": {
     "criteria": {
       "has_wood": "2025-07-03 02:56:00 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lamps_ceilings": {
+    "criteria": {
+      "has_wood": "2025-07-03 02:56:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:57:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-07-03 02:57:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 02:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-07-03 02:57:04 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/sweet_berry_juice": {
+    "criteria": {
+      "has_sweet_berries": "2025-07-03 03:02:02 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-07-03 03:02:02 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/food/toast_with_sweet_berries": {
+    "criteria": {
+      "has_sweet_berries": "2025-07-03 03:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-07-03 03:04:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-07-03 03:04:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:04:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-07-03 03:04:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:04:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-07-03 03:10:01 +0000"
     },
     "done": true
   },
@@ -3471,93 +3531,63 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pumpkin_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 02:52:03 +0000"
-    },
-    "done": true
-  },
-  "toughasnails:recipes/food/sweet_berry_juice": {
-    "criteria": {
-      "has_sweet_berries": "2025-07-03 03:02:02 +0000"
-    },
-    "done": true
-  },
   "mcwdoors:recipes/birch": {
     "criteria": {
       "has_wood": "2025-07-03 03:19:47 +0000"
     },
     "done": true
   },
-  "mcwlights:recipes/lamps_ceilings": {
-    "criteria": {
-      "has_wood": "2025-07-03 02:56:00 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/golden_knife": {
-    "criteria": {
-      "has_gold_ingot": "2025-07-03 02:04:42 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-07-03 03:28:48 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2025-07-03 02:29:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2025-07-03 02:26:19 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 02:29:25 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/food/steak_sandwich": {
-    "criteria": {
-      "has_cooked_beef": "2025-07-03 03:28:53 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
-    "criteria": {
-      "cooked_bacon": "2025-07-03 03:28:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
-    "criteria": {
-      "cooked_bacon": "2025-07-03 03:28:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2025-07-03 02:15:00 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/cooking/diced_potatoes_with_beef": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:29:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2025-07-03 03:19:47 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2025-07-03 03:21:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "flint_knife": "2025-07-03 03:27:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-07-03 03:27:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-07-03 03:27:37 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/cooked_rice_with_porkchop": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:28:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:28:12 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/diced_potatoes_with_porkchop": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:28:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2025-07-03 03:28:45 +0000"
     },
     "done": true
   },
@@ -3573,21 +3603,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/beef_stew": {
+  "farmersdelight:recipes/food/cooked_mutton_chops": {
     "criteria": {
-      "has_any_ingredient": "2025-07-03 02:29:11 +0000"
+      "cooked_mutton_chops": "2025-07-03 03:28:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
     "criteria": {
-      "has_beetroot": "2025-07-03 03:04:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2025-07-03 02:26:19 +0000"
+      "cooked_mutton_chops": "2025-07-03 03:28:48 +0000"
     },
     "done": true
   },
@@ -3597,69 +3621,21 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+  "moredelight:recipes/food/steak_sandwich": {
     "criteria": {
-      "has_any_ingredient": "2025-07-03 03:29:00 +0000"
+      "has_cooked_beef": "2025-07-03 03:28:53 +0000"
     },
     "done": true
   },
-  "moredelight:recipes/cooking/cooked_rice_with_chicken_cuts": {
+  "farmersdelight:recipes/food/roast_chicken_block": {
     "criteria": {
-      "has_any_ingredient": "2025-07-03 03:37:08 +0000"
+      "has_cooked_chicken": "2025-07-03 03:28:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/melon": {
+  "moredelight:recipes/food/chicken_sandwich_with_egg_and_tomato": {
     "criteria": {
-      "has_melon": "2025-07-03 02:15:00 +0000"
-    },
-    "done": true
-  },
-  "moredelight:recipes/cooking/diced_potatoes_with_porkchop": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:28:12 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 02:24:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_mosaic": {
-    "criteria": {
-      "has_bamboo_slab": "2025-07-03 02:50:24 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/ratatouille": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:04:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/bamboo_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-07-03 02:50:20 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-07-03 03:04:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/sweet_berry_cookie": {
-    "criteria": {
-      "has_sweet_berries": "2025-07-03 03:02:02 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/craft_knife": {
-    "criteria": {
-      "flint_knife": "2025-07-03 03:27:35 +0000"
+      "has_cooked_chicken": "2025-07-03 03:28:54 +0000"
     },
     "done": true
   },
@@ -3669,21 +3645,15 @@
     },
     "done": true
   },
-  "moredelight:recipes/food/toast_with_sweet_berries": {
+  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
     "criteria": {
-      "has_sweet_berries": "2025-07-03 03:02:02 +0000"
+      "cooked_bacon": "2025-07-03 03:28:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
     "criteria": {
-      "has_brown_mushroom": "2025-07-03 02:57:04 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-07-03 03:04:09 +0000"
+      "cooked_bacon": "2025-07-03 03:28:58 +0000"
     },
     "done": true
   },
@@ -3693,15 +3663,45 @@
     },
     "done": true
   },
-  "moredelight:recipes/cooking/creamy_pasta_with_chicken_cuts": {
+  "moredelight:recipes/cooking/cooked_rice_with_beef": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:29:00 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/diced_potatoes_with_beef": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:29:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:29:00 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/diced_potatoes_with_chicken_cuts": {
     "criteria": {
       "has_any_ingredient": "2025-07-03 03:37:08 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/fried_egg": {
+  "farmersdelight:recipes/cooking/chicken_soup": {
     "criteria": {
-      "fried_egg": "2025-07-03 02:29:25 +0000"
+      "has_any_ingredient": "2025-07-03 03:37:08 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/cooked_rice_with_chicken_cuts": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:37:08 +0000"
+    },
+    "done": true
+  },
+  "moredelight:recipes/cooking/creamy_pasta_with_chicken_cuts": {
+    "criteria": {
+      "has_any_ingredient": "2025-07-03 03:37:08 +0000"
     },
     "done": true
   },
