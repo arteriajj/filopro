@@ -4090,6 +4090,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/red_maple_leaf_pile": {
+    "criteria": {
+      "has_red_maple_leaves": "2025-07-05 03:18:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
       "has_light_gray_terracotta": "2025-07-05 02:20:24 +0000"
@@ -4144,9 +4150,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-07-05 03:17:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/carrot_from_crate": {
+    "criteria": {
+      "has_carrot_crate": "2025-07-05 03:27:38 +0000"
     },
     "done": true
   },
