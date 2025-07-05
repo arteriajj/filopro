@@ -2508,6 +2508,7 @@
     "criteria": {
       "minecraft:beach": "2025-07-03 03:16:03 +0000",
       "minecraft:dark_forest": "2025-07-03 02:56:43 +0000",
+      "minecraft:mangrove_swamp": "2025-07-05 01:50:05 +0000",
       "minecraft:sparse_jungle": "2025-07-03 03:17:31 +0000",
       "minecraft:river": "2025-06-25 06:21:18 +0000",
       "minecraft:lukewarm_ocean": "2025-06-25 06:13:39 +0000",
@@ -4077,9 +4078,51 @@
     },
     "done": true
   },
+  "toughasnails:recipes/combat/leaf_helmet": {
+    "criteria": {
+      "has_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_wood": {
+    "criteria": {
+      "has_log": "2025-07-05 01:57:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2025-07-05 00:53:07 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_leggings": {
+    "criteria": {
+      "has_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/maple_planks": {
+    "criteria": {
+      "has_logs": "2025-07-05 01:57:27 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/orange_maple_leaf_pile": {
+    "criteria": {
+      "has_orange_maple_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_chestplate": {
+    "criteria": {
+      "has_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/leaf_boots": {
+    "criteria": {
+      "has_leaves": "2025-07-05 01:53:25 +0000"
     },
     "done": true
   },
