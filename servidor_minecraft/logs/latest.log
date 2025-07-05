@@ -959,3 +959,4 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [02:12:25] [Server thread/INFO]: Changing watch distance to 6
 [02:16:55] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/20494, l='ServerLevel[Filopro2]', x=-1558.50, y=103.00, z=-1610.50]
 [02:18:25] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/20634, l='ServerLevel[Filopro2]', x=-1620.50, y=77.00, z=-1630.50]
+[02:19:43] [Server thread/INFO]: chat.type.admin
