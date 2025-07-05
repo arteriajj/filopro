@@ -4096,6 +4096,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2025-07-05 02:32:44 +0000"
+    },
+    "done": true
+  },
   "toughasnails:recipes/combat/leaf_helmet": {
     "criteria": {
       "has_leaves": "2025-07-05 01:53:25 +0000"
@@ -4105,6 +4111,18 @@
   "minecraft:recipes/decorations/white_glazed_terracotta": {
     "criteria": {
       "has_white_terracotta": "2025-07-05 02:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-07-05 02:32:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2025-07-05 02:35:21 +0000"
     },
     "done": true
   },
@@ -4120,9 +4138,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_glazed_terracotta": {
+    "criteria": {
+      "has_pink_terracotta": "2025-07-05 02:35:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-07-05 02:39:08 +0000"
     },
     "done": true
   },
@@ -4153,6 +4183,12 @@
   "minecraft:recipes/building_blocks/purple_terracotta": {
     "criteria": {
       "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_glazed_terracotta": {
+    "criteria": {
+      "has_gray_terracotta": "2025-07-05 02:39:10 +0000"
     },
     "done": true
   },
@@ -4213,6 +4249,12 @@
   "toughasnails:recipes/combat/leaf_boots": {
     "criteria": {
       "has_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2025-07-05 02:43:18 +0000"
     },
     "done": true
   },
