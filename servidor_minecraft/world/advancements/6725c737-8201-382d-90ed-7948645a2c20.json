@@ -17,6 +17,7 @@
       "woodland": "2025-06-25 03:19:26 +0000",
       "dryland": "2025-06-25 04:53:58 +0000",
       "wasteland": "2025-06-25 04:47:36 +0000",
+      "lavender_field": "2025-07-05 00:50:09 +0000",
       "shrubland": "2025-07-03 03:21:38 +0000",
       "old_growth_woodland": "2025-06-24 18:16:30 +0000",
       "rocky_shrubland": "2025-07-03 03:10:28 +0000",
@@ -3702,6 +3703,60 @@
   "moredelight:recipes/cooking/creamy_pasta_with_chicken_cuts": {
     "criteria": {
       "has_any_ingredient": "2025-07-03 03:37:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2025-07-05 01:01:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-07-05 00:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-07-05 00:53:54 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-07-05 00:50:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-07-05 00:55:53 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2025-07-05 00:50:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough": {
+    "criteria": {
+      "has_wheat": "2025-07-05 00:53:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-07-05 00:53:54 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_lavender": "2025-07-05 00:52:14 +0000"
     },
     "done": true
   },
