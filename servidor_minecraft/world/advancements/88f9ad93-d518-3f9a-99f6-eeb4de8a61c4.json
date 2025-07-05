@@ -4150,6 +4150,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/yellow_maple_leaf_pile": {
+    "criteria": {
+      "has_yellow_maple_leaves": "2025-07-05 02:51:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_glazed_terracotta": {
     "criteria": {
       "has_brown_terracotta": "2025-07-05 02:39:08 +0000"
@@ -4171,6 +4177,12 @@
   "biomesoplenty:recipes/building_blocks/maple_wood": {
     "criteria": {
       "has_log": "2025-07-05 01:57:27 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lamps_ceilings": {
+    "criteria": {
+      "has_the_recipe": "2025-07-05 02:51:51 +0000"
     },
     "done": true
   },
@@ -4204,6 +4216,12 @@
     },
     "done": true
   },
+  "mcwlights:recipes/glowstone_slab": {
+    "criteria": {
+      "has_wood": "2025-07-05 02:51:51 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/maple_planks": {
     "criteria": {
       "has_logs": "2025-07-05 01:57:27 +0000"
@@ -4231,6 +4249,12 @@
   "toughasnails:recipes/combat/leaf_chestplate": {
     "criteria": {
       "has_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-07-05 02:51:51 +0000"
     },
     "done": true
   },
