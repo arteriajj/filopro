@@ -4078,15 +4078,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-07-05 02:20:24 +0000"
+    },
+    "done": true
+  },
   "toughasnails:recipes/combat/leaf_helmet": {
     "criteria": {
       "has_leaves": "2025-07-05 01:53:25 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-07-05 02:20:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/maple_wood": {
     "criteria": {
       "has_log": "2025-07-05 01:57:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
     },
     "done": true
   },
@@ -4114,9 +4180,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
   "toughasnails:recipes/combat/leaf_chestplate": {
     "criteria": {
       "has_leaves": "2025-07-05 01:53:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
     },
     "done": true
   },
@@ -4129,6 +4219,24 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-07-05 00:53:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-07-05 02:18:47 +0000"
     },
     "done": true
   },

@@ -960,3 +960,9 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [02:16:55] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/20494, l='ServerLevel[Filopro2]', x=-1558.50, y=103.00, z=-1610.50]
 [02:18:25] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/20634, l='ServerLevel[Filopro2]', x=-1620.50, y=77.00, z=-1630.50]
 [02:19:43] [Server thread/INFO]: chat.type.admin
+[02:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[02:31:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[02:32:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[02:33:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[02:33:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2789ms or 55 ticks behind
+[02:36:49] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/24460, l='ServerLevel[Filopro2]', x=-1605.50, y=29.00, z=-1462.50]
