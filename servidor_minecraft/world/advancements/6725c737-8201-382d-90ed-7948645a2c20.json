@@ -3960,6 +3960,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/empyreal_planks": {
+    "criteria": {
+      "has_logs": "2025-07-06 01:32:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
       "has_light_gray_terracotta": "2025-07-06 00:44:51 +0000"
@@ -3990,15 +3996,33 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/palm_planks": {
+    "criteria": {
+      "has_logs": "2025-07-06 01:33:19 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/mossy_cobblestone_from_willow_vine": {
     "criteria": {
       "has_willow_vine": "2025-07-06 01:13:20 +0000"
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/palm_wood": {
+    "criteria": {
+      "has_log": "2025-07-06 01:33:19 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/mossy_stone_bricks_from_willow_vine": {
     "criteria": {
       "has_willow_vine": "2025-07-06 01:13:20 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/empyreal_wood": {
+    "criteria": {
+      "has_log": "2025-07-06 01:32:06 +0000"
     },
     "done": true
   },
