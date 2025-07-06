@@ -3960,5 +3960,17 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2025-07-06 00:33:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_hibiscus": {
+    "criteria": {
+      "has_pink_hibiscus": "2025-07-06 00:37:26 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
