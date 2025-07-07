@@ -4392,5 +4392,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-07-07 20:54:18 +0000"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/charc_os": {
+    "criteria": {
+      "has_charcoal": "2025-07-07 20:49:49 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
