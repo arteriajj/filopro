@@ -3960,9 +3960,15 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/empyreal_planks": {
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
     "criteria": {
-      "has_logs": "2025-07-06 01:32:06 +0000"
+      "has_rose_quartz_chunk": "2025-07-06 00:33:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_hibiscus": {
+    "criteria": {
+      "has_pink_hibiscus": "2025-07-06 00:37:26 +0000"
     },
     "done": true
   },
@@ -3984,33 +3990,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
-    "criteria": {
-      "has_rose_quartz_chunk": "2025-07-06 00:33:59 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/pink_dye_from_pink_hibiscus": {
-    "criteria": {
-      "has_pink_hibiscus": "2025-07-06 00:37:26 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/palm_planks": {
-    "criteria": {
-      "has_logs": "2025-07-06 01:33:19 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/building_blocks/mossy_cobblestone_from_willow_vine": {
     "criteria": {
       "has_willow_vine": "2025-07-06 01:13:20 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/palm_wood": {
-    "criteria": {
-      "has_log": "2025-07-06 01:33:19 +0000"
     },
     "done": true
   },
@@ -4020,9 +4002,27 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/empyreal_planks": {
+    "criteria": {
+      "has_logs": "2025-07-06 01:32:06 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/empyreal_wood": {
     "criteria": {
       "has_log": "2025-07-06 01:32:06 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_planks": {
+    "criteria": {
+      "has_logs": "2025-07-06 01:33:19 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_wood": {
+    "criteria": {
+      "has_log": "2025-07-06 01:33:19 +0000"
     },
     "done": true
   },
