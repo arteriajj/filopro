@@ -740,3 +740,12 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:29:18] [Server thread/INFO]: Changing watch distance to 6
 [22:32:34] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/4099, l='ServerLevel[Filopro2]', x=-1687.50, y=123.00, z=-1487.50]
 [22:34:08] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/4207, l='ServerLevel[Filopro2]', x=-1561.50, y=109.00, z=-1582.50]
+[22:50:35] [Server thread/INFO]: List of possible modded crossbow items are empty, preparing to fill up...
+[22:50:35] [Server thread/INFO]: No modded crossbow items have been found!
+[22:56:36] [Server thread/INFO]: chat.type.admin
+[22:56:43] [Server thread/INFO]: chat.type.admin
+[22:57:10] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/6500, l='ServerLevel[Filopro2]', x=-1607.50, y=48.00, z=-1550.50]
+[22:57:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[22:58:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[22:58:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[22:59:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
