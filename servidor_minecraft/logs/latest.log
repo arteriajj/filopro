@@ -738,3 +738,5 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [22:29:18] [Server thread/INFO]: Changing watch distance to 6
 [22:29:18] [Server thread/INFO]: Changing watch distance to 6
 [22:29:18] [Server thread/INFO]: Changing watch distance to 6
+[22:32:34] [Server thread/WARN]: UUID of added entity already exists: class_1613['entity.minecraft.skeleton'/4099, l='ServerLevel[Filopro2]', x=-1687.50, y=123.00, z=-1487.50]
+[22:34:08] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/4207, l='ServerLevel[Filopro2]', x=-1561.50, y=109.00, z=-1582.50]
