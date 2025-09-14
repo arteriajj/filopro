@@ -1,6 +1,6 @@
 {
   "tcp_alloc": {
-    "allowed": 6,
+    "allowed": 4,
     "claimed": 1,
     "desired": 1
   },
@@ -9,34 +9,34 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "works-unity.gl.joinmc.link",
-          "assigned_srv": "works-unity.gl.joinmc.link",
+          "assigned_domain": "write-carry.gl.joinmc.link",
+          "assigned_srv": "write-carry.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "4f51c482-bbc3-458a-8121-411033ebfabd",
-          "ip_hostname": "29.ip.gl.ply.gg",
+          "id": "d2ed86c9-b8cd-4301-b049-6832793dce7c",
+          "ip_hostname": "223.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 56988,
-          "port_start": 56987,
+          "port_end": 23873,
+          "port_start": 23872,
           "region": "global",
-          "static_ip4": "147.185.221.29",
-          "static_ip6": "2602:fbaf:0:1::1d",
-          "tunnel_ip": "2602:fbaf:0:1::1d"
+          "static_ip4": "147.185.221.223",
+          "static_ip6": "2602:fbaf:0:1::df",
+          "tunnel_ip": "147.185.221.223"
         },
         "status": "allocated"
       },
-      "created_at": "2025-07-01T16:20:56.316555Z",
+      "created_at": "2025-09-14T21:58:30.925945Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "823bb2ce-c257-4ad6-9123-401a5d30f38f",
+      "id": "5632b51a-ca58-4f27-90ad-25bde2567f3a",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "4e5cca8b-73e0-478d-97b8-26a02bc5952c",
-          "agent_name": "from-key-f053",
+          "agent_id": "dd5c23eb-4961-49ec-b63b-9febb850c12a",
+          "agent_name": "from-key-0b3b",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },
@@ -54,7 +54,7 @@
     }
   ],
   "udp_alloc": {
-    "allowed": 6,
+    "allowed": 4,
     "claimed": 0,
     "desired": 0
   }
