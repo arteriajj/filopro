@@ -908,3 +908,12 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 [02:18:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4497ms or 89 ticks behind
 [02:19:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
 [02:19:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4051ms or 81 ticks behind
+[02:24:30] [Server thread/WARN]: UUID of added entity already exists: class_1642['entity.minecraft.zombie'/27139, l='ServerLevel[Filopro2]', x=-1616.50, y=26.00, z=-1512.50]
+[02:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[02:25:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[02:26:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[02:29:48] [Server thread/INFO]: Kafiro lost connection: multiplayer.disconnect.generic
+[02:29:48] [Server thread/INFO]: multiplayer.player.left
+[02:29:48] [Server thread/WARN]: handleDisconnection() called twice
+[02:29:50] [Server thread/INFO]: AuroraSadov lost connection: multiplayer.disconnect.generic
+[02:29:50] [Server thread/INFO]: multiplayer.player.left
