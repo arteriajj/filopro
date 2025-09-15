@@ -4572,6 +4572,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2025-09-15 01:26:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2025-09-15 01:26:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2025-09-15 00:17:55 +0000"
@@ -4595,6 +4607,13 @@
       "has_planks": "2025-09-15 00:17:17 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2025-09-15 01:27:35 +0000",
+      "melon": "2025-09-15 01:27:40 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
@@ -4653,6 +4672,12 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-09-15 00:17:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-09-15 01:27:35 +0000"
     },
     "done": true
   },
